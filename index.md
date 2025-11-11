@@ -17,6 +17,9 @@
 
 ## Landing Page
 The landing page is presented to users when they visit the top-level URL to the site.
+<p align="center">
+  <img src="images/LandingPageMockup.png" alt="WarriorHub Welcome Page" width="100%">
+</p>
 
 
 ### The Problem

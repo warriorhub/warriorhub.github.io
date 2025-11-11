@@ -25,7 +25,7 @@ WarriorHub will illustrate a variety of technologies useful to ICS software engi
   - Nextjs
   - HTML and CSS
 
-## Landing Page
+## Landing Page Mockup
 The landing page is presented to users when they visit the top-level URL to the site.
 <p align="center">
   <img src="images/LandingPageMockup.png" alt="WarriorHub Welcome Page" width="100%">

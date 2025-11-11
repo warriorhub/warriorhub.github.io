@@ -114,27 +114,77 @@ Users will be able to include their preferences, like their favorite event and t
 
 ---
 
-### Mockup Page Ideas
+### Landing Page Mockup
 
-* Landing Page
-* User Home Page
-* Admin Home Page
-* Organizer Home Page
-* Event Search / Category Pages
-* Add / Delete / Edit Event Page
-* Calendar Page
-* Event Detail Page
-* Campus Map Page
-* (Optional) User Profile Page
-
----
-
-#### Landing Page Mockup
-
-The landing page is presented to users when they visit the top-level URL to the site.
+Anyone visiting the site should have access to the landing page. It should show the application name on the top right, navbar on the top, filters to search for events in the header, and two carousels showing images of upcoming events. The landing page is presented to users when they visit the top-level URL to the site.
 <p align="center">
   <img src="images/LandingPageMockup.png" alt="WarriorHub Welcome Page" width="100%">
 </p>
+
+---
+
+### Event Search / Category Pages Mockup
+
+Anyone visiting the site can also search through the events in the database through the search page. They have the option of searching by category or location location, or by typing in search terms.
+
+---
+
+### User Home Page Mockup
+
+When a user signs up or logs in, they can click on the “MyEvents” link in the navbar and be taken to a list of events they have signed up for notifications for. This includes upcoming events as well as past events.
+
+---
+
+### Admin Home Page Mockup
+
+When an admin signs up or logs in, they can click on the “MyEvents” link in the navbar and be taken to a list of all events. 
+They can then have permission to add/delete/edit the event via the [Add / Delete / Edit Event Page](#Add/Delete/Edit-Event-Page-Mockup).
+
+---
+
+### Organizer Home Page Mockup
+
+When an organizer signs up or logs in, they can click on the “MyEvents” link in the navbar and be taken to a list of all events they have created. 
+They can then have permission to add/delete/edit their events via the [Add / Delete / Edit Event Page](#Add/Delete/Edit-Event-Page-Mockup).
+
+---
+
+
+### Add / Delete / Edit Event Page Mockup
+
+TBD 
+
+---
+
+### Calendar Page Mockup
+
+TBD 
+
+---
+
+### Event Detail Page Mockup
+
+TBD 
+
+---
+
+### Contact Us / About Us Page Mockup
+
+Anyone using the application can view this page to see the members behind the creation of this application. An overview of our goal is at the top and a collection of our pictures are below.
+
+Users can contact us through this page. Each of our names redirects to opening an email with our respective hawaii.edu email address. Users who are event organizers can contact us to request a higher level of permissions to create and post events.
+
+---
+
+### (Optional) Campus Map Page Mockup
+
+TBD 
+
+---
+
+### (Optional) User / Admin / Organizer Profile Page Mockup
+
+TBD
 
 ---
 

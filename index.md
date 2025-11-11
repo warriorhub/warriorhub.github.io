@@ -15,6 +15,10 @@
 
 ## Overview
 
+## Landing Page
+The landing page is presented to users when they visit the top-level URL to the site.
+
+
 ### The Problem
 Currently, UH Mānoa has several different event calendars with varying functionality, which are all disconnected from each other.  
 For instance, Hamilton Library has its own calendar with events such as trivia night and board game night; however, these events are not advertised on the [UH Mānoa Events Calendar](https://www.hawaii.edu/calendar/manoa/2025/11/5).  
@@ -25,8 +29,6 @@ Moreover, events cannot be filtered by category, often leaving users with ineffi
 We will implement a mass event scheduler. This will allow various organizations to input their events on a singular website, allowing for efficiency and ease of use.  
 
 ## Deployment 
-
-## Deployment
 
 ### Approach 
 This app will create an organized platform to present UH Mānoa–specific events in a unified student interface, with three role options.  

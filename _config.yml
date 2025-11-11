@@ -1,8 +1,10 @@
-title: WarriorHub info page
-description: An event scheduler for UH Manoa
+title: WarriorHub 
+description: An Event Scheduler for UH Manoa
 google_analytics:
 show_downloads: false
 theme: jekyll-theme-cayman
-
+github:
+  is_project_page: true
+  repository_url: https://github.com/warriorhub/warriorhub
 gems:
   - jekyll-mentions

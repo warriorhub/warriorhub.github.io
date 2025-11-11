@@ -15,23 +15,20 @@
 
 ## Overview
 
-## Name of Proposers/Authors
-- Sakura Takahashi  
-- Jiayi Lu  
-- Kacy Kuniyoshi  
-- Jordan Wong  
-- Alicia Luck
-  
-## The Problem
+### The Problem
 Currently, UH Mānoa has several different event calendars with varying functionality, which are all disconnected from each other.  
 For instance, Hamilton Library has its own calendar with events such as trivia night and board game night; however, these events are not advertised on the [UH Mānoa Events Calendar](https://www.hawaii.edu/calendar/manoa/2025/11/5).  
 
 Moreover, events cannot be filtered by category, often leaving users with inefficient visualizations. This results in students having to check multiple sites to find relevant events, which leads to lower attendance.
 
-## The Solution
+### The Solution
 We will implement a mass event scheduler. This will allow various organizations to input their events on a singular website, allowing for efficiency and ease of use.  
 
-## Approach 
+## Deployment 
+
+## Deployment
+
+### Approach 
 This app will create an organized platform to present UH Mānoa–specific events in a unified student interface, with three role options.  
 
 The app will include three roles:
@@ -49,9 +46,11 @@ Users will be able to include their preferences, like their favorite event and t
 
 ---
 
-# Use Cases
+## User Guide 
 
-## 1. Users Searching for Events
+### Use Cases
+
+#### 1. Users Searching for Events
 1. User signs up with UH credentials.  
 2. Navigates to the Calendar page.  
 3. Selects interests and receives recommended events; irrelevant events are hidden.  
@@ -59,7 +58,7 @@ Users will be able to include their preferences, like their favorite event and t
 5. Views RSVP or interest indicators for signed-in users.  
 6. RSVPs to events and receives reminder notifications.  
 
-## 2. User Hosting an Event
+#### 2. User Hosting an Event
 1. User logs in with Organizer credentials.  
 2. Navigates to Create an Event page.  
 3. Fills in event details:  
@@ -69,14 +68,14 @@ Users will be able to include their preferences, like their favorite event and t
    - Sponsor and ticketing information  
 4. Optionally provides an external calendar link to import events.  
 
-## 3. Admin Editing the Page
+#### 3. Admin Editing the Page
 1. Logs in with Admin credentials.  
 2. Visits the page with admin-only edit tools visible.  
 3. Documents and implements approved edits or changes.  
 
 ---
 
-# Mockup Page Ideas
+### Mockup Page Ideas
 - Landing Page  
 - User Home Page  
 - Admin Home Page  
@@ -90,7 +89,7 @@ Users will be able to include their preferences, like their favorite event and t
 
 ---
 
-# Beyond the Basics
+### Beyond the Basics
 Additional planned features include:
 - Notify students via email and SMS reminders of upcoming events that they have RSVPed for and notifying similar events that are coming up that they might be interested in..
 - Map viewing showing the location of nearby events.  
@@ -98,3 +97,17 @@ Additional planned features include:
 - Allow users to ‘like’ certain events that would give the program better suggestions on what kind of events a user would like to attend for personalized reccomendations.
 - Engagement points for people who attend events and reward badges for users to unlock. (i.e “Athletics Fan”, “Music Jammer”, “Foodie”, etc.)
 
+## Community Feedback
+## Developer Guide
+## Development History
+## Continuous Integration
+## Walkthrough Videos 
+## Example Enhancements 
+
+## Team
+WarriorHub is designed, implemented, and maintained by:
+- Sakura Takahashi  
+- Jiayi Lu  
+- Kacy Kuniyoshi  
+- Jordan Wong  
+- Alicia Luck

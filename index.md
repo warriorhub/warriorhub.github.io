@@ -18,6 +18,7 @@ WarriorHub is a web application that will provide UH Manoa students to browse on
   - Students can browse and RSVP for events
   - Organizers can create and manage events
   - Admins will validate new events, manage event quality, and organizer accounts
+
 WarriorHub will illustrate a variety of technologies useful to ICS software engineering students that include and not limited to:
   - React
   - React Bootstrap

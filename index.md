@@ -14,13 +14,21 @@
 * [Team](#team)
 
 ## Overview
+WarriorHub is a web application that will provide UH Manoa students to browse on-campus events all in one place. With WarriorHub, students will no longer have to search across multiple websites and calenders to find events that interests them. Now students may experience the campus life to the fullest and stay informed about activities that they enjoy. Users will be able to browse, search, and filter events that are most relevant to them. The web application will allow three types of users: students, admins, and organizers.
+  - Students can browse and RSVP for events
+  - Organizers can create and manage events
+  - Admins will validate new events, manage event quality, and organizer accounts
+WarriorHub will illustrate a variety of technologies useful to ICS software engineering students that include and not limited to:
+  - React
+  - React Bootstrap
+  - Nextjs
+  - HTML and CSS
 
 ## Landing Page
 The landing page is presented to users when they visit the top-level URL to the site.
 <p align="center">
   <img src="images/LandingPageMockup.png" alt="WarriorHub Welcome Page" width="100%">
 </p>
-
 
 ### The Problem
 Currently, UH Mānoa has several different event calendars with varying functionality, which are all disconnected from each other.  

@@ -86,7 +86,7 @@ Users will be able to include their preferences, like their favorite event and t
 
 ### Use Cases
 
-#### 1. Users Searching for Events
+#### Users Searching for Events
 
 1. User signs up with UH credentials.
 2. Navigates to the Calendar page.
@@ -95,7 +95,7 @@ Users will be able to include their preferences, like their favorite event and t
 5. Views RSVP or interest indicators for signed-in users.
 6. RSVPs to events and receives reminder notifications.
 
-#### 2. User Hosting an Event
+#### User Hosting an Event
 
 1. User logs in with Organizer credentials.
 2. Navigates to Create an Event page.
@@ -106,7 +106,7 @@ Users will be able to include their preferences, like their favorite event and t
    * Sponsor and ticketing information
 4. Optionally provides an external calendar link to import events.
 
-#### 3. Admin Editing the Page
+#### Admin Editing the Page
 
 1. Logs in with Admin credentials.
 2. Visits the page with admin-only edit tools visible.

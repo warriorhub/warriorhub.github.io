@@ -5,14 +5,12 @@
 * [Overview](#overview)
 * [Team](#team)
 * [Our Github](#our-github)
-* [Team Contract](#team-contract)
 * [Deployment](#deployment)
 * [User Guide](#user-guide)
-* [Community Feedback](#community-feedback)
 * [Developer Guide](#developer-guide)
+* [Community Feedback](#community-feedback)
 * [Development History](#development-history)
 * [Continuous Integration](#continuous-integration)
-* [Walkthrough videos](#walkthrough-videos)
 * [Example enhancements](#example-enhancements)
 
 
@@ -31,6 +29,8 @@ WarriorHub will illustrate a variety of technologies useful to ICS software engi
 * Nextjs
 * HTML and CSS
 
+---
+
 ### The Problem
 
 Currently, UH Mānoa has several different event calendars with varying functionality, which are all disconnected from each other.  
@@ -38,9 +38,13 @@ For instance, Hamilton Library has its own calendar with events such as trivia n
 
 Moreover, events cannot be filtered by category, often leaving users with inefficient visualizations. This results in students having to check multiple sites to find relevant events, which leads to lower attendance.
 
+---
+
 ### The Solution
 
 We will implement a mass event scheduler. This will allow various organizations to input their events on a singular website, allowing for efficiency and ease of use.  
+
+---
 
 ## Team
 
@@ -52,16 +56,40 @@ WarriorHub is designed, implemented, and maintained by:
 * Jordan Wong
 * Alicia Luck
 
+---
+
+### Team Contract 
+
+Our team's code of conduct can be found in the [Team Contract](https://docs.google.com/document/d/1tgecXyrKeLgYMAdy3Xhf0NZaTgcaG1QSbqhRyxEmIIQ/edit?usp=sharing)
+
+---
+
 ## Our Github 
+
 View our organization on Github [here](https://github.com/warriorhub)
 
-## Team Contract 
-Our team's code of conduct can be found in the [Team Contract](https://docs.google.com/document/d/1tgecXyrKeLgYMAdy3Xhf0NZaTgcaG1QSbqhRyxEmIIQ/edit?usp=sharing)
+---
+
+### Project Milestones 
+
+Here are our goals throughout this project, separated into Milestones. They can also be found on our organization's Github.
+
+Project Milestone 1: TBD
+
+Project Milestone 2: TBD
+
+Project Milestone 3: TBD
+
+---
 
 ## Deployment
 Our running application is [here](https://github.com/warriorhub/warriorhub). It is currently not working.
 
 ## User Guide
+
+This section provides a walkthrough of the WarriorHub user interface and its capabilities.
+
+---
 
 ### Approach
 
@@ -129,6 +157,14 @@ Anyone visiting the site can also search through the events in the database thro
 
 ---
 
+### Sign In and Sign Up 
+
+Click on the “Login” button in the upper right corner of the navbar, then select “Sign in” to go to the following page and login. 
+
+Alternatively, you can select “Sign up” to go to the following page and register as a new user.
+
+---
+
 ### User Home Page Mockup
 
 When a user signs up or logs in, they can click on the “MyEvents” link in the navbar and be taken to a list of events they have signed up for notifications for. This includes upcoming events as well as past events.
@@ -152,19 +188,33 @@ They can then have permission to add/delete/edit their events via the [Add / Del
 
 ### Add / Delete / Edit Event Page Mockup
 
-TBD 
+Once you are logged in, you can define new projects with the Edit Project page:
+
+1. **Users:** Can add/delete/edit their own archieved events in their "My Events" page.
+2. **Organizers:** Can upload and manage events related to their organization in their "My Events" page.
+3. **Admins:** Can add/delete/edit any/all events in their "My Events" page to ensure quality control.  
 
 ---
 
 ### Calendar Page Mockup
 
-TBD 
+Features of the Calendar Page
+- Calendar showing a month at a time
+- Events for that month
+- Ability to view events on specific days
 
 ---
 
 ### Event Detail Page Mockup
 
-TBD 
+Features of the Event Detail Page
+- Navigation Bar
+- Organizer form to request to post an event
+    - Attributes to help categorize the event
+    - Image upload for thumbnails and supporting images
+    - Description of the event
+    - Request for submission
+- Footer
 
 ---
 
@@ -184,21 +234,27 @@ TBD
 
 ### (Optional) User / Admin / Organizer Profile Page Mockup
 
+Features of the Profile Page
+- View user profile
+- Edit user profile
+
+---
+
+## Developer Guide
+
 TBD
+
+---
+
+### Installations
+
+TBD 
 
 ---
 
 ## Community Feedback
 
 TBD
-
-## Developer Guide
-
-TBD
-
-### Installations
-
-TBD 
 
 ## Development History
 
@@ -208,13 +264,7 @@ N/A
 
 TBD 
 
-## Walkthrough Videos
-
-TBD 
-
 ## Example Enhancements
-
-### Beyond the Basics
 
 Additional planned features include:
 

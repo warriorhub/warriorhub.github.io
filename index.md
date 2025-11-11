@@ -3,6 +3,9 @@
 ## Table of contents
 
 * [Overview](#overview)
+* [Team](#team)
+* [Our Github](#our-github)
+* [Team Contract](#team-contract)
 * [Deployment](#deployment)
 * [User Guide](#user-guide)
 * [Community Feedback](#community-feedback)
@@ -11,7 +14,7 @@
 * [Continuous Integration](#continuous-integration)
 * [Walkthrough videos](#walkthrough-videos)
 * [Example enhancements](#example-enhancements)
-* [Team](#team)
+
 
 ## Overview
 
@@ -28,13 +31,6 @@ WarriorHub will illustrate a variety of technologies useful to ICS software engi
 * Nextjs
 * HTML and CSS
 
-## Landing Page Mockup
-
-The landing page is presented to users when they visit the top-level URL to the site.
-<p align="center">
-  <img src="images/LandingPageMockup.png" alt="WarriorHub Welcome Page" width="100%">
-</p>
-
 ### The Problem
 
 Currently, UH Mānoa has several different event calendars with varying functionality, which are all disconnected from each other.  
@@ -46,7 +42,26 @@ Moreover, events cannot be filtered by category, often leaving users with ineffi
 
 We will implement a mass event scheduler. This will allow various organizations to input their events on a singular website, allowing for efficiency and ease of use.  
 
+## Team
+
+WarriorHub is designed, implemented, and maintained by:
+
+* Sakura Takahashi (sakuraet@hawaii.edu)
+* Jiayi Lu
+* Kacy Kuniyoshi
+* Jordan Wong
+* Alicia Luck
+
+## Our Github 
+View our organization on Github [here](https://github.com/warriorhub)
+
+## Team Contract 
+Our team's code of conduct can be found in the [Team Contract](https://docs.google.com/document/d/1tgecXyrKeLgYMAdy3Xhf0NZaTgcaG1QSbqhRyxEmIIQ/edit?usp=sharing)
+
 ## Deployment
+Our running application is [here](https://github.com/warriorhub/warriorhub). It is currently not working.
+
+## User Guide
 
 ### Approach
 
@@ -68,8 +83,6 @@ Organizers will manage all event details such as:
 Users will be able to include their preferences, like their favorite event and their specific residence hall. This will allow the app to show more content relevant to them and give accurate recommendations.
 
 ---
-
-## User Guide
 
 ### Use Cases
 
@@ -116,6 +129,41 @@ Users will be able to include their preferences, like their favorite event and t
 
 ---
 
+#### Landing Page Mockup
+
+The landing page is presented to users when they visit the top-level URL to the site.
+<p align="center">
+  <img src="images/LandingPageMockup.png" alt="WarriorHub Welcome Page" width="100%">
+</p>
+
+---
+
+## Community Feedback
+
+TBD
+
+## Developer Guide
+
+TBD
+
+### Installations
+
+TBD 
+
+## Development History
+
+N/A 
+
+## Continuous Integration
+
+TBD 
+
+## Walkthrough Videos
+
+TBD 
+
+## Example Enhancements
+
 ### Beyond the Basics
 
 Additional planned features include:
@@ -125,25 +173,3 @@ Additional planned features include:
 * System for reviews on events, allowing RSVP students to give anonymous feedback of the event after they have attended.
 * Allow users to ‘like’ certain events that would give the program better suggestions on what kind of events a user would like to attend for personalized reccomendations.
 * Engagement points for people who attend events and reward badges for users to unlock. (i.e “Athletics Fan”, “Music Jammer”, “Foodie”, etc.)
-
-## Community Feedback
-
-## Developer Guide
-
-## Development History
-
-## Continuous Integration
-
-## Walkthrough Videos
-
-## Example Enhancements
-
-## Team
-
-WarriorHub is designed, implemented, and maintained by:
-
-* Sakura Takahashi
-* Jiayi Lu
-* Kacy Kuniyoshi
-* Jordan Wong
-* Alicia Luck

@@ -1,4 +1,4 @@
-# Warriorhub: UH Manoa Event Scheduler
+# WarriorHub: UH Mānoa Event Scheduler
 
 ## Table of contents
 
@@ -15,10 +15,9 @@
 * [Walkthrough videos](#walkthrough-videos)
 * [Example enhancements](#example-enhancements)
 
-
 ## Overview
 
-WarriorHub is a web application that will provide UH Manoa students to browse on-campus events all in one place. With WarriorHub, students will no longer have to search across multiple websites and calenders to find events that interests them. Now students may experience the campus life to the fullest and stay informed about activities that they enjoy. Users will be able to browse, search, and filter events that are most relevant to them. The web application will allow three types of users: students, admins, and organizers.
+WarriorHub is a web application that will provide UH Mānoa students to browse on-campus events all in one place. With WarriorHub, students will no longer have to search across multiple websites and calenders to find events that interests them. Now students may experience the campus life to the fullest and stay informed about activities that they enjoy. Users will be able to browse, search, and filter events that are most relevant to them. The web application will allow three types of users: students, admins, and organizers.
 
 * Students can browse and RSVP for events
 * Organizers can create and manage events
@@ -46,19 +45,22 @@ We will implement a mass event scheduler. This will allow various organizations 
 
 WarriorHub is designed, implemented, and maintained by:
 
-* Sakura Takahashi (sakuraet@hawaii.edu)
+* Sakura Takahashi (<sakuraet@hawaii.edu>)
 * Jiayi Lu
 * Kacy Kuniyoshi
 * Jordan Wong
 * Alicia Luck
 
-## Our Github 
-View our organization on Github [here](https://github.com/warriorhub)
+## Our GitHub
 
-## Team Contract 
+View our organization on GitHub [here](https://github.com/warriorhub)
+
+## Team Contract
+
 Our team's code of conduct can be found in the [Team Contract](https://docs.google.com/document/d/1tgecXyrKeLgYMAdy3Xhf0NZaTgcaG1QSbqhRyxEmIIQ/edit?usp=sharing)
 
 ## Deployment
+
 Our running application is [here](https://github.com/warriorhub/warriorhub). It is currently not working.
 
 ## User Guide
@@ -137,34 +139,33 @@ When a user signs up or logs in, they can click on the “MyEvents” link in th
 
 ### Admin Home Page Mockup
 
-When an admin signs up or logs in, they can click on the “MyEvents” link in the navbar and be taken to a list of all events. 
+When an admin signs up or logs in, they can click on the “MyEvents” link in the navbar and be taken to a list of all events.
 They can then have permission to add/delete/edit the event via the [Add / Delete / Edit Event Page](#Add/Delete/Edit-Event-Page-Mockup).
 
 ---
 
 ### Organizer Home Page Mockup
 
-When an organizer signs up or logs in, they can click on the “MyEvents” link in the navbar and be taken to a list of all events they have created. 
+When an organizer signs up or logs in, they can click on the “MyEvents” link in the navbar and be taken to a list of all events they have created.
 They can then have permission to add/delete/edit their events via the [Add / Delete / Edit Event Page](#Add/Delete/Edit-Event-Page-Mockup).
 
 ---
 
-
 ### Add / Delete / Edit Event Page Mockup
 
-TBD 
+TBD
 
 ---
 
 ### Calendar Page Mockup
 
-TBD 
+TBD
 
 ---
 
 ### Event Detail Page Mockup
 
-TBD 
+TBD
 
 ---
 
@@ -178,7 +179,7 @@ Users can contact us through this page. Each of our names redirects to opening a
 
 ### (Optional) Campus Map Page Mockup
 
-TBD 
+TBD
 
 ---
 
@@ -198,19 +199,19 @@ TBD
 
 ### Installations
 
-TBD 
+TBD
 
 ## Development History
 
-N/A 
+N/A
 
 ## Continuous Integration
 
-TBD 
+TBD
 
 ## Walkthrough Videos
 
-TBD 
+TBD
 
 ## Example Enhancements
 

@@ -57,7 +57,7 @@ WarriorHub is designed, implemented, and maintained by:
 
 ---
 
-### Team Contract 
+### Team Contract
 
 Our team's code of conduct can be found in the [Team Contract](https://docs.google.com/document/d/1tgecXyrKeLgYMAdy3Xhf0NZaTgcaG1QSbqhRyxEmIIQ/edit?usp=sharing)
 
@@ -69,7 +69,7 @@ View our organization on GitHub [here](https://github.com/warriorhub)
 
 ---
 
-### Project Milestones 
+### Project Milestones
 
 Here are our goals throughout this project, separated into Milestones. They can also be found on our organization's Github.
 
@@ -157,9 +157,9 @@ Anyone visiting the site can also search through the events in the database thro
 
 ---
 
-### Sign In and Sign Up 
+### Sign In and Sign Up
 
-Click on the “Login” button in the upper right corner of the navbar, then select “Sign in” to go to the following page and login. 
+Click on the “Login” button in the upper right corner of the navbar, then select “Sign in” to go to the following page and login.
 
 Alternatively, you can select “Sign up” to go to the following page and register as a new user.
 
@@ -198,22 +198,24 @@ Once you are logged in, you can define new projects with the Edit Project page:
 ### Calendar Page Mockup
 
 Features of the Calendar Page
-- Calendar showing a month at a time
-- Events for that month
-- Ability to view events on specific days
+
+* Calendar showing a month at a time
+* Events for that month
+* Ability to view events on specific days
 
 ---
 
 ### Event Detail Page Mockup
 
 Features of the Event Detail Page
-- Navigation Bar
-- Organizer form to request to post an event
-    - Attributes to help categorize the event
-    - Image upload for thumbnails and supporting images
-    - Description of the event
-    - Request for submission
-- Footer
+
+* Navigation Bar
+* Organizer form to request to post an event
+  * Attributes to help categorize the event
+  * Image upload for thumbnails and supporting images
+  * Description of the event
+  * Request for submission
+* Footer
 
 ---
 
@@ -234,8 +236,9 @@ TBD
 ### (Optional) User / Admin / Organizer Profile Page Mockup
 
 Features of the Profile Page
-- View user profile
-- Edit user profile
+
+* View user profile
+* Edit user profile
 
 ---
 
@@ -247,7 +250,7 @@ TBD
 
 ### Installations
 
-TBD 
+TBD
 
 ---
 

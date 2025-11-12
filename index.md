@@ -278,7 +278,7 @@ Project Milestone 3: TBD
 
 The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system.
 
-Milestone 1 was managed using [WarriorHub gitHub Project Board M1](https://github.com/orgs/warriorhub/projects/1): 
+Milestone 1 was managed using [WarriorHub GitHub Project Board M1](https://github.com/orgs/warriorhub/projects/1): 
 
 <p align="center">
   <img src="images/project_milestone1.png" alt="Project Milestone 1" width="100%">

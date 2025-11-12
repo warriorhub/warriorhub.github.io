@@ -50,10 +50,10 @@ We will implement a mass event scheduler. This will allow various organizations 
 WarriorHub is designed, implemented, and maintained by:
 
 * Sakura Takahashi (<sakuraet@hawaii.edu>)
-* Jiayi Lu
-* Kacy Kuniyoshi
-* Jordan Wong
-* Alicia Luck
+* Jiayi Lu (<liujiayi@hawaii.edu>)
+* Kacy Kuniyoshi (<kacykuni@hawaii.edu>)
+* Jordan Wong (<jordanww@hawaii.edu>)
+* Alicia Luck (<luckmana@hawaii.edu>)
 
 ---
 
@@ -66,18 +66,6 @@ Our team's code of conduct can be found in the [Team Contract](https://docs.goog
 ## Our GitHub
 
 View our organization on GitHub [here](https://github.com/warriorhub)
-
----
-
-### Project Milestones
-
-Here are our goals throughout this project, separated into Milestones. They can also be found on our organization's Github.
-
-[Project Milestone 1](https://github.com/orgs/warriorhub/projects/1): WIP
-
-Project Milestone 2: TBD
-
-Project Milestone 3: TBD
 
 ---
 
@@ -260,7 +248,51 @@ TBD
 
 ## Development History
 
-N/A
+The development process for WarriorHub follows Issue Driven Project Management practices: 
+
+- Development consists of a sequence of Milestones.
+- Each Milestone is specified as a set of tasks.
+- Each task is described using a GitHub Issue, and is assigned to a single developer to complete.
+- Tasks should typically consist of work that can be completed in 2-4 days.
+- The work for each task is accomplished with a git branch named “issue-XX”, where XX is replaced by the issue number.
+- When a task is complete, its corresponding issue is closed and its corresponding git branch is merged into master.
+- The state (todo, in progress, complete) of each task for a milestone is managed using a GitHub Project Board.
+
+The following sections document the development history of WarriorHub.
+
+---
+
+### Project Milestones
+
+Here are our goals throughout this project, separated into Milestones. They can also be found on our organization's Github.
+
+[Project Milestone 1](https://github.com/orgs/warriorhub/projects/1): WIP
+
+Project Milestone 2: TBD
+
+Project Milestone 3: TBD
+
+---
+
+### Milestone 1: Mockup Development 
+
+The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system.
+
+Milestone 1 was managed using [WarriorHub gitHub Project Board M1](https://github.com/orgs/warriorhub/projects/1): 
+
+<p align="center">
+  <img src="images/project_milestone1.png" alt="Project Milestone 1" width="100%">
+</p>
+
+---
+
+### Milestone 2: TBD
+
+---
+
+### Milestone 3: TBD
+
+---
 
 ## Continuous Integration
 

@@ -73,7 +73,7 @@ View our organization on GitHub [here](https://github.com/warriorhub)
 
 Here are our goals throughout this project, separated into Milestones. They can also be found on our organization's Github.
 
-Project Milestone 1: TBD
+[Project Milestone 1](https://github.com/orgs/warriorhub/projects/1): WIP
 
 Project Milestone 2: TBD
 

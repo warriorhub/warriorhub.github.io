@@ -139,21 +139,25 @@ Anyone visiting the site should have access to the landing page. It should show 
 
 ---
 
-### Sign In and Sign Up
+### Sign In and Sign Up Page Mockup
 
 Click on the “Login” button in the upper right corner of the navbar, then select “Sign in” to go to the following page and login.
 
 Alternatively, you can select “Sign up” to go to the following page and register as a new user.
 
 <p align="center">
-  <img src="images/sign_in_page.png" alt="WarriorHub Welcome Page" width="100%">
+  <img src="images/sign_in_page.png" alt="Sign In / Sign Up Page" width="100%">
 </p>
 
 ---
 
-### Event Search / Category Pages Mockup
+### Event Search Page Mockup
 
 Anyone visiting the site can also search through the events in the database through the search page. They have the option of searching by category or location location, or by typing in search terms.
+
+<p align="center">
+  <img src="images/search_page_mockup.png" alt="Event Search Page" width="100%">
+</p>
 
 ---
 

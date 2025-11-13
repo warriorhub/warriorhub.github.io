@@ -170,7 +170,13 @@ Anyone visiting the site can also search through the events in the database thro
 
 ### User Home Page Mockup
 
-When a user signs up or logs in, they can click on the “MyEvents” link in the navbar and be taken to a list of events they have signed up for notifications for. This includes upcoming events as well as past events.
+When a user signs up or logs in, they can click on the “MyEvents” link in the navbar and be taken to a list of events they have signed up for notifications for. This includes upcoming events as well as past events. 
+
+Disclaimer: this is for the mobile application
+
+<p align="center">
+  <img src="images/WarriorHub.png" alt="User Home Page" width="100%">
+</p>
 
 ---
 

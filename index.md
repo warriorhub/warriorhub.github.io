@@ -185,6 +185,10 @@ Disclaimer: this is for the mobile application
 When an admin signs up or logs in, they can click on the “MyEvents” link in the navbar and be taken to a list of all events.
 They can then have permission to add/delete/edit the event via the [Add / Delete / Edit Event Page](#Add/Delete/Edit-Event-Page-Mockup).
 
+<p align="center">
+  <img src="images/AdminPageMockup.png" alt="Admin Page" width="100%">
+</p>
+
 ---
 
 ### Organizer Home Page Mockup

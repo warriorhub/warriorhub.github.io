@@ -72,13 +72,12 @@ Our team's code of conduct can be found in the [Team Contract](https://docs.goog
 
 - View our organization on GitHub [here](https://github.com/warriorhub)
 - View our WarriorHub application src code on Github [here](https://github.com/warriorhub/warriorhub)
-- View our github.io home page [here](https://warriorhub.github.io/)
 
 ---
 
 ## Deployment
 
-Our running application is [here](https://github.com/warriorhub/warriorhub). It is currently not working.
+Our running application is [here](https://warriorhub-gamma.vercel.app/).
 
 ## User Guide
 

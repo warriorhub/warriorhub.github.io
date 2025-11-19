@@ -11,7 +11,7 @@
 * [Mockup Ideas](#mockup-ideas)
 * [Developer Guide](#developer-guide)
 * [Community Feedback](#community-feedback)
-* [Example enhancements](#example-enhancements)
+* [Example Enhancements](#example-enhancements)
 
 ## Overview
 
@@ -64,25 +64,15 @@ Our team's code of conduct can be found in the [Team Contract](https://docs.goog
 ## Our GitHub
 
 - View the WarriorHub organization [here](https://github.com/warriorhub)
-- View the WarriorHub application [here](https://github.com/warriorhub/warriorhub)
+- View the WarriorHub project repository [here](https://github.com/warriorhub/warriorhub)
+- View the WarriorHub project demo repository [here](https://github.com/warriorhub/demo-repository)
+- View the WarriorHub github.io page repository [here](https://github.com/warriorhub/warriorhub.github.io)
 
 ---
 
 ## Development
 
-The development process for WarriorHub follows Issue Driven Project Management practices: 
-
-- Development consists of a sequence of Milestones.
-- Each Milestone is specified as a set of tasks.
-- Each task is described using a GitHub Issue, and is assigned to a single developer to complete.
-- Tasks should typically consist of work that can be completed in 2-4 days.
-- The work for each task is accomplished with a git branch named “issue-XX”, where XX is replaced by the issue number.
-- When a task is complete, its corresponding issue is closed and its corresponding git branch is merged into master.
-- The state (todo, in progress, complete) of each task for a milestone is managed using a GitHub Project Board.
-
-The following sections document the development history of WarriorHub.
-
----
+The development process for WarriorHub follows [Issue Driven Project Management](https://courses.ics.hawaii.edu/ics314f25/morea/project-management/reading-guidelines-idpm.html) practices: 
 
 ### Project Milestones
 
@@ -90,7 +80,7 @@ Here are our goals throughout this project, separated into Milestones. They can 
 
 [Project Milestone 1](https://github.com/orgs/warriorhub/projects/1)
 
-[Project Milestone 2](https://github.com/orgs/warriorhub/projects/2): WIP
+[Project Milestone 2](https://github.com/orgs/warriorhub/projects/2)
 
 Project Milestone 3: TBD
 
@@ -100,7 +90,7 @@ Project Milestone 3: TBD
 
 ### Vercel 
 
-To make Campus Resource Scheduler easily accessible to the UH Mānoa community, we’ve deployed our application using Vercel, a powerful platform for frontend frameworks and static sites. Vercel streamlines the deployment process, offering continuous integration with GitHub and automatic updates every time changes are pushed to the main branch.
+To make WarriorHub easily accessible to the UH Mānoa community, we’ve deployed our application using Vercel, a powerful platform for frontend frameworks and static sites. Vercel streamlines the deployment process, offering continuous integration with GitHub and automatic updates every time changes are pushed to the main branch.
 
 You can access the deployed WarriorHub here: [https://warriorhub-gamma.vercel.app/](https://warriorhub-gamma.vercel.app/)
 

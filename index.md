@@ -5,12 +5,12 @@
 * [Overview](#overview)
 * [Team](#team)
 * [Our Github](#our-github)
+* [Development](#development)
 * [Deployment](#deployment)
 * [User Guide](#user-guide)
+* [Mockup Ideas](#mockup-ideas)
 * [Developer Guide](#developer-guide)
 * [Community Feedback](#community-feedback)
-* [Development History](#development-history)
-* [Continuous Integration](#continuous-integration)
 * [Example enhancements](#example-enhancements)
 
 ## Overview
@@ -20,13 +20,6 @@ WarriorHub is a web application that will provide UH Mānoa students to browse o
 * Students can browse and RSVP for events
 * Organizers can create and manage events
 * Admins will validate new events, manage event quality, and organizer accounts
-
-WarriorHub will illustrate a variety of technologies useful to ICS software engineering students that include and not limited to:
-
-* React
-* React Bootstrap
-* Nextjs
-* HTML and CSS
 
 ---
 
@@ -70,14 +63,43 @@ Our team's code of conduct can be found in the [Team Contract](https://docs.goog
 
 ## Our GitHub
 
-- View our organization on GitHub [here](https://github.com/warriorhub)
-- View our WarriorHub application src code on Github [here](https://github.com/warriorhub/warriorhub)
+- View the WarriorHub organization [here](https://github.com/warriorhub)
+- View the WarriorHub application [here](https://github.com/warriorhub/warriorhub)
+
+---
+
+## Development
+
+The development process for WarriorHub follows Issue Driven Project Management practices: 
+
+- Development consists of a sequence of Milestones.
+- Each Milestone is specified as a set of tasks.
+- Each task is described using a GitHub Issue, and is assigned to a single developer to complete.
+- Tasks should typically consist of work that can be completed in 2-4 days.
+- The work for each task is accomplished with a git branch named “issue-XX”, where XX is replaced by the issue number.
+- When a task is complete, its corresponding issue is closed and its corresponding git branch is merged into master.
+- The state (todo, in progress, complete) of each task for a milestone is managed using a GitHub Project Board.
+
+The following sections document the development history of WarriorHub.
+
+---
+
+### Project Milestones
+
+Here are our goals throughout this project, separated into Milestones. They can also be found on our organization's Github.
+
+[Project Milestone 1](https://github.com/orgs/warriorhub/projects/1)
+
+[Project Milestone 2](https://github.com/orgs/warriorhub/projects/2): WIP
+
+Project Milestone 3: TBD
 
 ---
 
 ## Deployment
 
 ### Vercel 
+
 To make Campus Resource Scheduler easily accessible to the UH Mānoa community, we’ve deployed our application using Vercel, a powerful platform for frontend frameworks and static sites. Vercel streamlines the deployment process, offering continuous integration with GitHub and automatic updates every time changes are pushed to the main branch.
 
 You can access the deployed WarriorHub here: [https://warriorhub-gamma.vercel.app/](https://warriorhub-gamma.vercel.app/)
@@ -86,11 +108,11 @@ You can access the deployed WarriorHub here: [https://warriorhub-gamma.vercel.ap
 
 ## User Guide
 
-This section provides a walkthrough of the WarriorHub user interface, its capabilities, and mockups.
+This section aims to guide the user through how to use WarriorHub. 
 
 ---
 
-### Approach
+## Mockup Ideas 
 
 This app will create an organized platform to present UH Mānoa–specific events in a unified student interface, with three role options.  
 
@@ -285,57 +307,7 @@ TBD
 
 TBD
 
-## Development History
-
-The development process for WarriorHub follows Issue Driven Project Management practices: 
-
-- Development consists of a sequence of Milestones.
-- Each Milestone is specified as a set of tasks.
-- Each task is described using a GitHub Issue, and is assigned to a single developer to complete.
-- Tasks should typically consist of work that can be completed in 2-4 days.
-- The work for each task is accomplished with a git branch named “issue-XX”, where XX is replaced by the issue number.
-- When a task is complete, its corresponding issue is closed and its corresponding git branch is merged into master.
-- The state (todo, in progress, complete) of each task for a milestone is managed using a GitHub Project Board.
-
-The following sections document the development history of WarriorHub.
-
 ---
-
-### Project Milestones
-
-Here are our goals throughout this project, separated into Milestones. They can also be found on our organization's Github.
-
-[Project Milestone 1](https://github.com/orgs/warriorhub/projects/1): WIP
-
-Project Milestone 2: TBD
-
-Project Milestone 3: TBD
-
----
-
-### Milestone 1: Mockup Development 
-
-The goal of Milestone 1 was to create a set of HTML pages providing a mockup of the pages in the system.
-
-Milestone 1 was managed using [WarriorHub GitHub Project Board M1](https://github.com/orgs/warriorhub/projects/1): 
-
-<p align="center">
-  <img src="images/milestone1.png" alt="Project Milestone 1" width="100%">
-</p>
-
----
-
-### Milestone 2: TBD
-
----
-
-### Milestone 3: TBD
-
----
-
-## Continuous Integration
-
-TBD
 
 ## Example Enhancements
 

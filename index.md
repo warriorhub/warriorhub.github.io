@@ -50,16 +50,16 @@ We will implement a mass event scheduler. This will allow various organizations 
 WarriorHub is designed, implemented, and maintained by:
 
 * Sakura Takahashi (<sakuraet@hawaii.edu>)
-  * Let's start with Sakura, a senior studying Math. As the project manager, she led our team by directing tasks and guiding milestone planning while overseeing issue tracking and development. Her leadership kept us organized and focused throughout the process.Sakura concentrated on refining the GitHub.io page, which is necessary for showcasing our project with a straightforward and sleek design. Throughout this work, she applied her course skills such as using VSCode and handling configurations via GitHub. Her work highlights the course's focus on effective planning and communication.
+  * Sakura is a senior studying Mathematics, she is the Project Manager for WarriorHub.
 * Jiayi Liu (<liujiayi@hawaii.edu>)
-  * Jiayi, a senior in Mechanical Engineering, helped us get our app live and secure. She had great systems-thinking skills that were evident when she worked on deployment and user sign-in features. Jiayi used Vercel to set up the deployment process, making sure our app was quick and dependable. For signing users in and out, she applied her knowledge of TypeScript modules to create components that are both safe and easy to use. Her work showed important lessons from her course like using VSCode well, managing settings with GitHub, and adding TypeScript into a web application practically.
+  * Jiayi is a senior studying Mechanical Engineering, she is the Back-End Developer for WarriorHub.
 * Kacy Kuniyoshi (<kacykuni@hawaii.edu>)
-  * Up next is Kacy, a senior majoring in Information and Computer Science. She played a crucial role in shaping the visual aspects of this project by designing mockups for the landing and sign-in pages. Her designs served as the foundation for our frontend implementation, demonstrating her expertise in HTML, CSS structure, and user-centered design principles. Thanks to Kacy's significant contributions, our team was able to swiftly transition from concept to code. Her efforts highlighted the importance of both design and collaboration.
+  * Kacy is a fourth-year studying Information and Computer Science, she is the Front-End Developer for WarriorHub.
 * Jordan Wong (<jordanww@hawaii.edu>)
-  * As we dive into the backend of our project, Jordan, a fourth-year Computer Science major, has dedicated his efforts to developing its structural backbone. He designed the database schemas with an emphasis on data organization and alignment with application logic. Additionally, Jordan crafted the deployment template to simplify setup processes and ensure consistency across different environments. His work highlighted configuration management techniques using Git and GitHub among other tools. His contributions were key to maintaining a clean and deployment-ready backend for our team.
+  * Jordan is a fourth-year studying Computer Science, he is the Systems Integrator for WarriorHub.
 * Alicia Luck (<luckmana@hawaii.edu>)
-  * Finally, Alicia, a fourth-year Information Technology student. She concentrated on designing the user homepage mockup and developing the M2 project page. In doing so, she utilized HTML, CSS, and TypeScript to create clear and easy to use layouts that aligned with our project's goals and user needs. Throughout the project, she effectively used VS Code for quick prototyping while collaborating with GitHub to manage version control efficiently. Her work highlights front-end development skills along with following industry standards as taught in her courses.
-  
+  * Alicia is a fourth-year studying Information Technology.
+  * 
 ---
 
 ### Team Contract
@@ -77,11 +77,16 @@ Our team's code of conduct can be found in the [Team Contract](https://docs.goog
 
 ## Deployment
 
-Our running application is [here](https://warriorhub-gamma.vercel.app/).
+### Vercel 
+To make Campus Resource Scheduler easily accessible to the UH Mānoa community, we’ve deployed our application using Vercel, a powerful platform for frontend frameworks and static sites. Vercel streamlines the deployment process, offering continuous integration with GitHub and automatic updates every time changes are pushed to the main branch.
+
+You can access the deployed WarriorHub here: [https://warriorhub-gamma.vercel.app/](https://warriorhub-gamma.vercel.app/)
+
+---
 
 ## User Guide
 
-This section provides a walkthrough of the WarriorHub user interface and its capabilities.
+This section provides a walkthrough of the WarriorHub user interface, its capabilities, and mockups.
 
 ---
 
@@ -136,28 +141,38 @@ Users will be able to include their preferences, like their favorite event and t
 
 ---
 
-### Landing Page Mockup
+### Mockup Page Ideas
 
-Anyone visiting the site should have access to the landing page. It should show the application name on the top right, navbar on the top, filters to search for events in the header, and two carousels showing images of upcoming events. The landing page is presented to users when they visit the top-level URL to the site.
+#### Landing Page Mockup
+
+Anyone visiting the site should have access to the landing page (signed in or not). It should show the application name on the top right, navbar on the top, filters to search for events in the header, and carousels showing images of upcoming events. The landing page is presented to users when they visit the top-level URL to the site.
 <p align="center">
   <img src="images/LandingPageMockup.png" alt="WarriorHub Welcome Page" width="100%">
 </p>
 
 ---
 
-### Sign In and Sign Up Page Mockup
+#### Sign In Page Mockup
 
 Click on the “Login” button in the upper right corner of the navbar, then select “Sign in” to go to the following page and login.
 
 Alternatively, you can select “Sign up” to go to the following page and register as a new user.
 
 <p align="center">
-  <img src="images/sign_in_page.png" alt="Sign In / Sign Up Page" width="100%">
+  <img src="images/sign_in_page.png" alt="Sign In Page" width="100%">
 </p>
 
 ---
+#### Sign Up Page Mockup
 
-### Event Search Page Mockup
+Click on the “Login” button in the upper right corner of the navbar, then select “Sign up” to go to the following page and register as a new User/Admin/Organizer.
+
+<p align="center">
+  <img src="images/SignUp.png" alt="Sign Up Page" width="100%">
+</p>
+
+---
+#### Event Search Page Mockup
 
 Anyone visiting the site can also search through the events in the database through the search page. They have the option of searching by category or location location, or by typing in search terms.
 
@@ -167,9 +182,9 @@ Anyone visiting the site can also search through the events in the database thro
 
 ---
 
-### User Home Page Mockup
+#### User Home Page Mockup
 
-When a user signs up or logs in, they can click on the “MyEvents” link in the navbar and be taken to a list of events they have signed up for notifications for. This includes upcoming events as well as past events. 
+When a user signs up or logs in, they can click on the "Home” link in the navbar and be taken to a list of all events which they can now RSVP for. This includes upcoming events as well as past events, like the landing page. 
 
 Disclaimer: this is for the mobile application
 
@@ -179,9 +194,9 @@ Disclaimer: this is for the mobile application
 
 ---
 
-### Admin Home Page Mockup
+#### Admin Home Page Mockup
 
-When an admin signs up or logs in, they can click on the “MyEvents” link in the navbar and be taken to a list of all events.
+When an admin signs up or logs in, they can click on the “Home” link in the navbar and be taken to a list of all events, like the landing page.
 They can then have permission to add/delete/edit the event via the [Add / Delete / Edit Event Page](#Add/Delete/Edit-Event-Page-Mockup).
 
 <p align="center">
@@ -190,14 +205,14 @@ They can then have permission to add/delete/edit the event via the [Add / Delete
 
 ---
 
-### Organizer Home Page Mockup
+#### Organizer Home Page Mockup
 
-When an organizer signs up or logs in, they can click on the “MyEvents” link in the navbar and be taken to a list of all events they have created.
+When an organizer signs up or logs in, they can click on the “Home” link in the navbar and be taken to a list of all events they have created.
 They can then have permission to add/delete/edit their events via the [Add / Delete / Edit Event Page](#Add/Delete/Edit-Event-Page-Mockup).
 
 ---
 
-### Add / Delete / Edit Event Page Mockup
+#### Add / Delete / Edit Event Page Mockup
 
 Once you are logged in, you can define new projects with the Edit Project page:
 
@@ -207,7 +222,7 @@ Once you are logged in, you can define new projects with the Edit Project page:
 
 ---
 
-### Calendar Page Mockup
+#### Calendar Page Mockup
 
 Features of the Calendar Page
 
@@ -217,9 +232,9 @@ Features of the Calendar Page
 
 ---
 
-### Event Detail Page Mockup
+#### MyEvents Page Mockup
 
-Features of the Event Detail Page
+Features of the MyEvents Page
 
 * Navigation Bar
 * Organizer form to request to post an event
@@ -231,7 +246,7 @@ Features of the Event Detail Page
 
 ---
 
-### Contact Us / About Us Page Mockup
+#### Contact Us / About Us Page Mockup
 
 Anyone using the application can view this page to see the members behind the creation of this application. An overview of our goal is at the top and a collection of our pictures are below.
 
@@ -239,13 +254,13 @@ Users can contact us through this page. Each of our names redirects to opening a
 
 ---
 
-### (Optional) Campus Map Page Mockup
+#### (Optional) Campus Map Page Mockup
 
 TBD
 
 ---
 
-### (Optional) User / Admin / Organizer Profile Page Mockup
+#### (Optional) User / Admin / Organizer Profile Page Mockup
 
 Features of the Profile Page
 

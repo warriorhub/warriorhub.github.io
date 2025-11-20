@@ -65,7 +65,6 @@ Our team's code of conduct can be found in the [Team Contract](https://docs.goog
 
 - View the WarriorHub organization [here](https://github.com/warriorhub)
 - View the WarriorHub project repository [here](https://github.com/warriorhub/warriorhub)
-- View the WarriorHub project demo repository [here](https://github.com/warriorhub/demo-repository)
 - View the WarriorHub github.io page repository [here](https://github.com/warriorhub/warriorhub.github.io)
 
 ---

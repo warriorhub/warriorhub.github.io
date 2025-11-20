@@ -4,7 +4,7 @@
 
 * [Overview](#overview)
 * [Team](#team)
-* [Our Github](#our-github)
+* [Our GitHub](#our-github)
 * [Development](#development)
 * [Deployment](#deployment)
 * [User Guide](#user-guide)
@@ -76,7 +76,7 @@ The development process for WarriorHub follows [Issue Driven Project Management]
 
 ### Project Milestones
 
-Here are our goals throughout this project, separated into Milestones. They can also be found on our organization's Github.
+Here are our goals throughout this project, separated into Milestones. They can also be found on our organization's GitHub.
 
 [Project Milestone 1](https://github.com/orgs/warriorhub/projects/1)
 
@@ -130,7 +130,7 @@ If an existing user is accessing the website, they can sign in to the website by
 
 ### Search Events Page 
 
-Anyone visiting the site can also search through the events in the database through the search page. They have the option of searching by category or location location, or by typing in search terms.
+Anyone visiting the site can also search through the events in the database through the search page. They have the option of searching by category or location, or by typing in search terms.
 
 <p align="center">
   <img src="images/user/search_events_page1.png" alt="Event Search Page" width="100%">
@@ -221,7 +221,7 @@ If an existing user is accessing the website, they can sign in to the website by
 
 #### Event Search Page Mockup
 
-Anyone visiting the site can also search through the events in the database through the search page. They have the option of searching by category or location location, or by typing in search terms.
+Anyone visiting the site can also search through the events in the database through the search page. They have the option of searching by category or location, or by typing in search terms.
 
 <p align="center">
   <img src="images/search_page_mockup.png" alt="Event Search Page" width="100%">
@@ -231,7 +231,7 @@ Anyone visiting the site can also search through the events in the database thro
 
 #### User Home Page Mockup
 
-When a user signs up or logs in, they can click on the "Home” link in the navbar and be taken to a list of all events which they can now RSVP for. This includes upcoming events as well as past events, like the landing page. 
+When a user signs up or logs in, they can click on the "Home" link in the navbar and be taken to a list of all events which they can now RSVP for. This includes upcoming events as well as past events, like the landing page. 
 
 Disclaimer: this is for the mobile application
 
@@ -279,7 +279,7 @@ Users can contact us through this page. Each of our names redirects to opening a
 
 Once you are logged in, you can define new projects with the Edit Project page:
 
-1. **Users:** Can add/delete/edit their own archieved events in their "My Events" page.
+1. **Users:** Can add/delete/edit their own archived events in their "My Events" page.
 2. **Organizers:** Can upload and manage events related to their organization in their "My Events" page.
 3. **Admins:** Can add/delete/edit any/all events in their "My Events" page to ensure quality control.  
 
@@ -346,8 +346,8 @@ TBD
 
 Additional planned features include:
 
-* Notify students via email and SMS reminders of upcoming events that they have RSVPed for and notifying similar events that are coming up that they might be interested in..
+* Notify students via email and SMS reminders of upcoming events that they have RSVPed for and notifying similar events that are coming up that they might be interested in.
 * Map viewing showing the location of nearby events.  
 * System for reviews on events, allowing RSVP students to give anonymous feedback of the event after they have attended.
-* Allow users to ‘like’ certain events that would give the program better suggestions on what kind of events a user would like to attend for personalized reccomendations.
+* Allow users to ‘like’ certain events that would give the program better suggestions on what kind of events a user would like to attend for personalized recommendations.
 * Engagement points for people who attend events and reward badges for users to unlock. (i.e “Athletics Fan”, “Music Jammer”, “Foodie”, etc.)

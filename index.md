@@ -203,26 +203,22 @@ Anyone visiting the site should have access to the landing page (signed in or no
 
 ---
 
-#### Sign In Page Mockup
+#### Sign Up / Sign In Page Mockup
 
-Click on the “Login” button in the upper right corner of the navbar, then select “Sign in” to go to the following page and login.
+If a new user is accessing the website, they have the option to register as a new user by clicking the “Login” button in the upper right corner of the page, clicking “Sign Up”, registering their email address, and deciding on a password.
 
-Alternatively, you can select “Sign up” to go to the following page and register as a new user.
+<p align="center">
+  <img src="images/SignUp.png" alt="Sign Up Page" width="100%">
+</p>
+
+If an existing user is accessing the website, they can sign in to the website by clicking the “Login” button in the upper right corner of the page, clicking “Sign In”, entering their email address, and inputting their password.
 
 <p align="center">
   <img src="images/sign_in_page.png" alt="Sign In Page" width="100%">
 </p>
 
 ---
-#### Sign Up Page Mockup
 
-Click on the “Login” button in the upper right corner of the navbar, then select “Sign up” to go to the following page and register as a new User/Admin/Organizer.
-
-<p align="center">
-  <img src="images/SignUp.png" alt="Sign Up Page" width="100%">
-</p>
-
----
 #### Event Search Page Mockup
 
 Anyone visiting the site can also search through the events in the database through the search page. They have the option of searching by category or location location, or by typing in search terms.
@@ -263,6 +259,22 @@ They can then have permission to add/delete/edit their events via the [Add / Del
 
 ---
 
+#### Contact Us / About Us Page Mockup
+
+Anyone using the application can view this page to see the members behind the creation of this application. An overview of our goal is at the top and a collection of our pictures are below.
+
+Users can contact us through this page. Each of our names redirects to opening an email with our respective hawaii.edu email address. Users who are event organizers can contact us to request a higher level of permissions to create and post events.
+
+<p align="center">
+  <img src="images/mockup/about_us_mockup.png" alt="About Us Page" width="100%">
+</p>
+
+<p align="center">
+  <img src="images/mockup/contact_us_mockup.png" alt="Contact Us Page" width="100%">
+</p>
+
+---
+
 #### Add / Delete / Edit Event Page Mockup
 
 Once you are logged in, you can define new projects with the Edit Project page:
@@ -294,14 +306,6 @@ Features of the MyEvents Page
   * Description of the event
   * Request for submission
 * Footer
-
----
-
-#### Contact Us / About Us Page Mockup
-
-Anyone using the application can view this page to see the members behind the creation of this application. An overview of our goal is at the top and a collection of our pictures are below.
-
-Users can contact us through this page. Each of our names redirects to opening an email with our respective hawaii.edu email address. Users who are event organizers can contact us to request a higher level of permissions to create and post events.
 
 ---
 

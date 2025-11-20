@@ -98,7 +98,46 @@ You can access the deployed WarriorHub here: [https://warriorhub-gamma.vercel.ap
 
 ## User Guide
 
-This section aims to guide the user through how to use WarriorHub. 
+This section provides a detailed walkthrough of the WarriorHub user interface, its pages, and its functionalities.
+
+### Landing Page 
+
+The landing page is presented to everyone who visits the top-level URL to the website. Here the website displays some of its features to those who have not signed in yet.
+
+<p align="center">
+  <img src="images/user/landing_page1.png" alt="Landing Page" width="100%">
+</p>
+<p align="center">
+  <img src="images/user/landing_page2.png" alt="Landing Page" width="100%">
+</p>
+<p align="center">
+  <img src="images/user/landing_page3.png" alt="Landing Page" width="100%">
+</p>
+
+### Sign Up and Sign In Pages 
+
+If a new user is accessing the website, they have the option to register as a new user by clicking the “Login” button in the upper right corner of the page, clicking “Sign Up”, registering their email address, and deciding on a password.
+
+<p align="center">
+  <img src="images/user/sign_in_page.png" alt="Sign In Page" width="100%">
+</p> 
+
+If an existing user is accessing the website, they can sign in to the website by clicking the “Login” button in the upper right corner of the page, clicking “Sign In”, entering their email address, and inputting their password.
+
+<p align="center">
+  <img src="images/user/sign_up_page.png" alt="Sign Up Page" width="100%">
+</p>
+
+### Search Events Page 
+
+Anyone visiting the site can also search through the events in the database through the search page. They have the option of searching by category or location location, or by typing in search terms.
+
+<p align="center">
+  <img src="images/user/search_events_page1.png" alt="Event Search Page" width="100%">
+</p> 
+<p align="center">
+  <img src="images/user/search_events_page2.png" alt="Event Search Page" width="100%">
+</p>
 
 ---
 

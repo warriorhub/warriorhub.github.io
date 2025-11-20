@@ -52,7 +52,7 @@ WarriorHub is designed, implemented, and maintained by:
   * Jordan is a fourth-year studying Computer Science, he is the Systems Integrator for WarriorHub.
 * Alicia Luck (<luckmana@hawaii.edu>)
   * Alicia is a fourth-year studying Information Technology.
-  * 
+ 
 ---
 
 ### Team Contract

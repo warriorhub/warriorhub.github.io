@@ -130,7 +130,7 @@ Our team's Use Cases can be found in [Use Cases](https://docs.google.com/present
 
 ### Landing Page Mockup
 
-Anyone visiting the site should have access to the landing page (signed in or not). It should show the application name on the top right, navbar on the top, filters to search for events in the header, and carousels showing images of upcoming events. The landing page is presented to users when they visit the top-level URL to the site. The landing page is presented to everyone who visits the top-level URL to the website. Here the website displays some of its features to those who have not signed in yet.
+Anyone visiting the site should have access to the landing page. Here the website displays some of its features to those who have not signed in yet. It should show the application name on the top right, navbar on the top, filters to search for events in the header, and carousels showing images of upcoming events.
 
 <p align="center">
   <img src="images/mockup/landing_page1.png" alt="Landing Page" width="100%">
@@ -178,7 +178,7 @@ Anyone visiting the site can also search through the events in the database thro
 Anyone visting the site can click on the "View Details" button on event cards to be presented a detailed event details pop-up that provides additional information for the event like description, time, date, and etc. 
 
 <p align="center">
-  <img src="images/mockup/event_details.png" alt="Event Details Page" width="100%">
+  <img src="images/mockup/event_details_page.png" alt="Event Details Page" width="100%">
 </p>
 
 --- 
@@ -205,9 +205,19 @@ They can then have permission to add/delete/edit their events via the [Add / Del
 
 ### Contact Us / About Us Page Mockup
 
-Anyone using the application can view this page to see the members behind the creation of this application. An overview of our goal is at the top and a collection of our pictures are below.
+Anyone using the application can view this page to see the members behind the creation of this application. An overview of our goal and github.io main page is at the top and a collection of our information such as eduation and email are below.
 
 Users can contact us through this page. Each of our names redirects to opening an email with our respective hawaii.edu email address. Users who are event organizers can contact us to request a higher level of permissions to create and post events.
+
+<p align="center">
+  <img src="images/mockup/help_page1.png" alt="Help Page" width="100%">
+</p>
+<p align="center">
+  <img src="images/mockup/help_page2.png" alt="Help Page" width="100%">
+</p>
+<p align="center">
+  <img src="images/mockup/help_page3.png" alt="Help Page" width="100%">
+</p>
 
 ---
 
@@ -236,7 +246,7 @@ Features of the Calendar Page
 The MyEvents Page allows signed-in users to archive their interested events for future use. Here, users can see the event, status, organizer, location, category, recursion, and start and end dates. 
 
 <p align="center">
-  <img src="images/mockup/my_events.png" alt="MyEvents Page" width="100%">
+  <img src="images/mockup/my_events_page.png" alt="MyEvents Page" width="100%">
 </p>
 
 ---

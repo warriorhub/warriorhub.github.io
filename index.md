@@ -7,8 +7,8 @@
 * [Our GitHub](#our-github)
 * [Development](#development)
 * [Deployment](#deployment)
-* [User Guide](#user-guide)
 * [Mockup Ideas](#mockup-ideas)
+* [User Guide](#user-guide)
 * [Developer Guide](#developer-guide)
 * [Community Feedback](#community-feedback)
 * [Example Enhancements](#example-enhancements)
@@ -101,51 +101,6 @@ You can access the deployed WarriorHub here: [https://warriorhub-gamma.vercel.ap
 
 ---
 
-## User Guide
-
-This section provides a detailed walkthrough of the WarriorHub user interface, its pages, and its functionalities.
-
-### Landing Page 
-
-The landing page is presented to everyone who visits the top-level URL to the website. Here the website displays some of its features to those who have not signed in yet.
-
-<p align="center">
-  <img src="images/user/landing_page1.png" alt="Landing Page" width="100%">
-</p>
-<p align="center">
-  <img src="images/user/landing_page2.png" alt="Landing Page" width="100%">
-</p>
-<p align="center">
-  <img src="images/user/landing_page3.png" alt="Landing Page" width="100%">
-</p>
-
-### Sign Up and Sign In Pages 
-
-If a new user is accessing the website, they have the option to register as a new user by clicking the “Login” button in the upper right corner of the page, clicking “Sign Up”, registering their email address, and deciding on a password.
-
-<p align="center">
-  <img src="images/user/sign_in_page.png" alt="Sign In Page" width="100%">
-</p> 
-
-If an existing user is accessing the website, they can sign in to the website by clicking the “Login” button in the upper right corner of the page, clicking “Sign In”, entering their email address, and inputting their password.
-
-<p align="center">
-  <img src="images/user/sign_up_page.png" alt="Sign Up Page" width="100%">
-</p>
-
-### Search Events Page 
-
-Anyone visiting the site can also search through the events in the database through the search page. They have the option of searching by category or location, or by typing in search terms.
-
-<p align="center">
-  <img src="images/user/search_events_page1.png" alt="Event Search Page" width="100%">
-</p> 
-<p align="center">
-  <img src="images/user/search_events_page2.png" alt="Event Search Page" width="100%">
-</p>
-
----
-
 ## Mockup Ideas 
 
 This app will create an organized platform to present UH Mānoa–specific events in a unified student interface, with three role options.  
@@ -173,39 +128,49 @@ Our team's Use Cases can be found in [Use Cases](https://docs.google.com/present
 
 ---
 
-### Mockup Page Ideas
+### Mockup Pages
 
 #### Landing Page Mockup
 
-Anyone visiting the site should have access to the landing page (signed in or not). It should show the application name on the top right, navbar on the top, filters to search for events in the header, and carousels showing images of upcoming events. The landing page is presented to users when they visit the top-level URL to the site.
+Anyone visiting the site should have access to the landing page (signed in or not). It should show the application name on the top right, navbar on the top, filters to search for events in the header, and carousels showing images of upcoming events. The landing page is presented to users when they visit the top-level URL to the site. The landing page is presented to everyone who visits the top-level URL to the website. Here the website displays some of its features to those who have not signed in yet.
+
 <p align="center">
-  <img src="images/LandingPageMockup.png" alt="WarriorHub Welcome Page" width="100%">
+  <img src="images/user/landing_page1.png" alt="Landing Page" width="100%">
+</p>
+<p align="center">
+  <img src="images/user/landing_page2.png" alt="Landing Page" width="100%">
+</p>
+<p align="center">
+  <img src="images/user/landing_page3.png" alt="Landing Page" width="100%">
 </p>
 
----
+--- 
 
-#### Sign Up / Sign In Page Mockup
+#### Sign Up and Sign In Pages Mockup
 
 If a new user is accessing the website, they have the option to register as a new user by clicking the “Login” button in the upper right corner of the page, clicking “Sign Up”, registering their email address, and deciding on a password.
 
 <p align="center">
-  <img src="images/SignUp.png" alt="Sign Up Page" width="100%">
-</p>
+  <img src="images/user/sign_in_page.png" alt="Sign In Page" width="100%">
+</p> 
 
 If an existing user is accessing the website, they can sign in to the website by clicking the “Login” button in the upper right corner of the page, clicking “Sign In”, entering their email address, and inputting their password.
 
 <p align="center">
-  <img src="images/sign_in_page.png" alt="Sign In Page" width="100%">
+  <img src="images/user/sign_up_page.png" alt="Sign Up Page" width="100%">
 </p>
 
----
+--- 
 
-#### Event Search Page Mockup
+#### Search Events Page Mockup
 
 Anyone visiting the site can also search through the events in the database through the search page. They have the option of searching by category or location, or by typing in search terms.
 
 <p align="center">
-  <img src="images/search_page_mockup.png" alt="Event Search Page" width="100%">
+  <img src="images/user/search_events_page1.png" alt="Event Search Page" width="100%">
+</p> 
+<p align="center">
+  <img src="images/user/search_events_page2.png" alt="Event Search Page" width="100%">
 </p>
 
 ---
@@ -214,22 +179,12 @@ Anyone visiting the site can also search through the events in the database thro
 
 When a user signs up or logs in, they can click on the "Home" link in the navbar and be taken to a list of all events which they can now RSVP for. This includes upcoming events as well as past events, like the landing page. 
 
-Disclaimer: this is for the mobile application
-
-<p align="center">
-  <img src="images/WarriorHub.png" alt="User Home Page" width="100%">
-</p>
-
 ---
 
 #### Admin Home Page Mockup
 
 When an admin signs up or logs in, they can click on the “Home” link in the navbar and be taken to a list of all events, like the landing page.
 They can then have permission to add/delete/edit the event via the [Add / Delete / Edit Event Page](#Add/Delete/Edit-Event-Page-Mockup).
-
-<p align="center">
-  <img src="images/AdminPageMockup.png" alt="Admin Page" width="100%">
-</p>
 
 ---
 
@@ -245,14 +200,6 @@ They can then have permission to add/delete/edit their events via the [Add / Del
 Anyone using the application can view this page to see the members behind the creation of this application. An overview of our goal is at the top and a collection of our pictures are below.
 
 Users can contact us through this page. Each of our names redirects to opening an email with our respective hawaii.edu email address. Users who are event organizers can contact us to request a higher level of permissions to create and post events.
-
-<p align="center">
-  <img src="images/mockup/about_us_mockup.png" alt="About Us Page" width="100%">
-</p>
-
-<p align="center">
-  <img src="images/mockup/contact_us_mockup.png" alt="Contact Us Page" width="100%">
-</p>
 
 ---
 
@@ -302,6 +249,12 @@ Features of the Profile Page
 
 * View user profile
 * Edit user profile
+
+---
+
+## User Guide
+
+This section provides a detailed walkthrough of the WarriorHub user interface, its pages, and its functionalities.
 
 ---
 

@@ -169,31 +169,7 @@ Users will be able to include their preferences, like their favorite event and t
 
 ### Use Cases
 
-#### Users Searching for Events
-
-1. User signs up with UH credentials.
-2. Navigates to the Calendar page.
-3. Selects interests and receives recommended events; irrelevant events are hidden.
-4. Toggles filters (event type, size, location).
-5. Views RSVP or interest indicators for signed-in users.
-6. RSVPs to events and receives reminder notifications.
-
-#### User Hosting an Event
-
-1. User logs in with Organizer credentials.
-2. Navigates to Create an Event page.
-3. Fills in event details:
-   * Date, time, and location
-   * Category and summary
-   * Flyers or website links
-   * Sponsor and ticketing information
-4. Optionally provides an external calendar link to import events.
-
-#### Admin Editing the Page
-
-1. Logs in with Admin credentials.
-2. Visits the page with admin-only edit tools visible.
-3. Documents and implements approved edits or changes.
+Our team's Use Cases can be found in [Use Cases](https://docs.google.com/presentation/d/1rMw5UsXPZhZZf5LEHpWYX6agsifNRFDt9q4ffFhPQIg/edit?usp=sharing)
 
 ---
 

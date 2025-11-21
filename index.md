@@ -203,6 +203,16 @@ They can then have permission to add/delete/edit their events via the [Add / Del
 
 ---
 
+### MyEvents Page Mockup
+
+The MyEvents Page allows signed-in users to archive their interested events for future use. Here, users can see the event, status, organizer, location, category, recursion, and start and end dates. 
+
+<p align="center">
+  <img src="images/mockup/myevents_page.png" alt="MyEvents Page" width="100%">
+</p>
+
+---
+
 ### Contact Us / About Us Page Mockup
 
 Anyone using the application can view this page to see the members behind the creation of this application. An overview of our goal and github.io main page is at the top and a collection of our information such as eduation and email are below.
@@ -238,16 +248,6 @@ Features of the Calendar Page
 * Calendar showing a month at a time
 * Events for that month
 * Ability to view events on specific days
-
----
-
-### MyEvents Page Mockup
-
-The MyEvents Page allows signed-in users to archive their interested events for future use. Here, users can see the event, status, organizer, location, category, recursion, and start and end dates. 
-
-<p align="center">
-  <img src="images/mockup/my_events_page.png" alt="MyEvents Page" width="100%">
-</p>
 
 ---
 

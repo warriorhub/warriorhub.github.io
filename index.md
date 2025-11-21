@@ -128,9 +128,7 @@ Our team's Use Cases can be found in [Use Cases](https://docs.google.com/present
 
 ---
 
-### Mockup Pages
-
-#### Landing Page Mockup
+### Landing Page Mockup
 
 Anyone visiting the site should have access to the landing page (signed in or not). It should show the application name on the top right, navbar on the top, filters to search for events in the header, and carousels showing images of upcoming events. The landing page is presented to users when they visit the top-level URL to the site. The landing page is presented to everyone who visits the top-level URL to the website. Here the website displays some of its features to those who have not signed in yet.
 
@@ -146,7 +144,7 @@ Anyone visiting the site should have access to the landing page (signed in or no
 
 --- 
 
-#### Sign Up and Sign In Pages Mockup
+### Sign Up and Sign In Pages Mockup
 
 If a new user is accessing the website, they have the option to register as a new user by clicking the “Login” button in the upper right corner of the page, clicking “Sign Up”, registering their email address, and deciding on a password.
 
@@ -162,7 +160,7 @@ If an existing user is accessing the website, they can sign in to the website by
 
 --- 
 
-#### Search Events Page Mockup
+### Search Events Page Mockup
 
 Anyone visiting the site can also search through the events in the database through the search page. They have the option of searching by category or location, or by typing in search terms.
 
@@ -173,29 +171,39 @@ Anyone visiting the site can also search through the events in the database thro
   <img src="images/mockup/search_events_page2.png" alt="Event Search Page" width="100%">
 </p>
 
----
+--- 
 
-#### User Home Page Mockup
+### Event Details Page Mockup 
+
+Anyone visting the site can click on the "View Details" button on event cards to be presented a detailed event details pop-up that provides additional information for the event like description, time, date, and etc. 
+
+<p align="center">
+  <img src="images/mockup/event_details.png" alt="Event Details Page" width="100%">
+</p>
+
+--- 
+
+### User Home Page Mockup
 
 When a user signs up or logs in, they can click on the "Home" link in the navbar and be taken to a list of all events which they can now RSVP for. This includes upcoming events as well as past events, like the landing page. 
 
 ---
 
-#### Admin Home Page Mockup
+### Admin Home Page Mockup
 
 When an admin signs up or logs in, they can click on the “Home” link in the navbar and be taken to a list of all events, like the landing page.
 They can then have permission to add/delete/edit the event via the [Add / Delete / Edit Event Page](#Add/Delete/Edit-Event-Page-Mockup).
 
 ---
 
-#### Organizer Home Page Mockup
+### Organizer Home Page Mockup
 
 When an organizer signs up or logs in, they can click on the “Home” link in the navbar and be taken to a list of all events they have created.
 They can then have permission to add/delete/edit their events via the [Add / Delete / Edit Event Page](#Add/Delete/Edit-Event-Page-Mockup).
 
 ---
 
-#### Contact Us / About Us Page Mockup
+### Contact Us / About Us Page Mockup
 
 Anyone using the application can view this page to see the members behind the creation of this application. An overview of our goal is at the top and a collection of our pictures are below.
 
@@ -203,7 +211,7 @@ Users can contact us through this page. Each of our names redirects to opening a
 
 ---
 
-#### Add / Delete / Edit Event Page Mockup
+### Add / Delete / Edit Event Page Mockup
 
 Once you are logged in, you can define new projects with the Edit Project page:
 
@@ -213,7 +221,7 @@ Once you are logged in, you can define new projects with the Edit Project page:
 
 ---
 
-#### Calendar Page Mockup
+### Calendar Page Mockup
 
 Features of the Calendar Page
 
@@ -223,27 +231,23 @@ Features of the Calendar Page
 
 ---
 
-#### MyEvents Page Mockup
+### MyEvents Page Mockup
 
-Features of the MyEvents Page
+The MyEvents Page allows signed-in users to archive their interested events for future use. Here, users can see the event, status, organizer, location, category, recursion, and start and end dates. 
 
-* Navigation Bar
-* Organizer form to request to post an event
-  * Attributes to help categorize the event
-  * Image upload for thumbnails and supporting images
-  * Description of the event
-  * Request for submission
-* Footer
+<p align="center">
+  <img src="images/mockup/my_events.png" alt="MyEvents Page" width="100%">
+</p>
 
 ---
 
-#### (Optional) Campus Map Page Mockup
+### (Optional) Campus Map Page Mockup
 
 TBD
 
 ---
 
-#### (Optional) User / Admin / Organizer Profile Page Mockup
+### (Optional) User / Admin / Organizer Profile Page Mockup
 
 Features of the Profile Page
 

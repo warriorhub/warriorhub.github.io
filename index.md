@@ -205,7 +205,7 @@ They can then have permission to add/delete/edit their events via the [Add / Del
 
 ### MyEvents Page Mockup
 
-The MyEvents Page allows signed-in users to archive their interested events for future use. Here, users can see the event, status, organizer, location, category, recursion, and start and end dates. 
+The MyEvents Page allows signed-in users to archive their interested events for future use by clicking "MyEvents" in the navbar. Here, users can see the event, status, organizer, location, category, recursion, and start and end dates. 
 
 <p align="center">
   <img src="images/mockup/myevents_page.png" alt="MyEvents Page" width="100%">
@@ -213,11 +213,11 @@ The MyEvents Page allows signed-in users to archive their interested events for 
 
 ---
 
-### Contact Us / About Us Page Mockup
+### Help Page Mockup
 
-Anyone using the application can view this page to see the members behind the creation of this application. An overview of our goal and github.io main page is at the top and a collection of our information such as eduation and email are below.
+Anyone using the application can view this page to see the members behind the creation of this application by clicking "Help". An overview of our goal and github.io main page is at the top and a collection of our information such as eduation and email are below.
 
-Users can contact us through this page. Each of our names redirects to opening an email with our respective hawaii.edu email address. Users who are event organizers can contact us to request a higher level of permissions to create and post events.
+Users can contact us through this page. Each of our names redirects to opening an email with our respective hawaii.edu email address. Users who are event organizers can contact us to request a higher level of permissions to create/edit/delete their events.
 
 <p align="center">
   <img src="images/mockup/help_page1.png" alt="Help Page" width="100%">

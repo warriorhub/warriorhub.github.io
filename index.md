@@ -201,6 +201,10 @@ They can then have permission to add/delete/edit the event via the [Add / Delete
 When an organizer signs up or logs in, they can click on the “Home” link in the navbar and be taken to a list of all events they have created.
 They can then have permission to add/delete/edit their events via the [Add / Delete / Edit Event Page](#Add/Delete/Edit-Event-Page-Mockup).
 
+<p align="center">
+  <img src="images/mockup/OrganizerHome.png" alt="Organizer Home Page" width="100%">
+</p> 
+
 ---
 
 ### MyEvents Page Mockup

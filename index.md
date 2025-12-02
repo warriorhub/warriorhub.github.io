@@ -67,6 +67,12 @@ Our team's Risk Management Stategy can be found in [Risk Management](https://doc
 
 ---
 
+### ER Diagrams 
+
+Our team's ER Diagrams can be found in [ER Diagrams](https://docs.google.com/presentation/d/14YnM6afF5WKc4zZMfzPvoEVz50e-FAHdp16-gSI9WYE/edit?usp=sharing)
+
+---
+
 ## Our GitHub
 
 - View the WarriorHub organization [here](https://github.com/warriorhub)
@@ -87,7 +93,7 @@ Here are our goals throughout this project, separated into Milestones. They can 
 
 [Project Milestone 2](https://github.com/orgs/warriorhub/projects/2)
 
-Project Milestone 3: TBD
+[Project Milestone 3](https://github.com/orgs/warriorhub/projects/5)
 
 ---
 
@@ -110,13 +116,6 @@ The app will include three roles:
 1. **Users:** Students log in with their UH email, set event and location preferences, and view customized recommendations.  
 2. **Organizers:** Event planners can upload and manage events related to their department, hall, or organization.  
 3. **Admins:** Oversee organizer accounts, approve or edit events, and ensure quality control.  
-
-Organizers will manage all event details such as:
-
-* Time
-* Location
-* Topic
-* RSVP options
 
 Users will be able to include their preferences, like their favorite event and their specific residence hall. This will allow the app to show more content relevant to them and give accurate recommendations.
 
@@ -278,13 +277,59 @@ This section provides a detailed walkthrough of the WarriorHub user interface, i
 
 ## Developer Guide
 
-TBD
+This guide provides an in-depth explanation on how to download, install, and run WarriorHub for new developers joining the project and contributors.
 
----
+### Downloading The Project 
 
-### Installations
+First clone the WarriorHub repository: [WarriorHub](https://github.com/warriorhub/warriorhub)
 
-TBD
+### Installing Dependencies 
+
+Change directories into your local copy of the repository, and run the following command to install third party libraries:
+
+```
+
+npm install
+
+```
+
+### Setup The Database 
+
+Generate the Prisma client by running the following command:
+
+```
+
+npx prisma generate
+
+```
+
+Push the schema to the database by running the following command:
+
+```
+
+npx prisma db push
+
+```
+
+(Optional) Seed the database:
+
+```
+
+npx prisma db seed
+
+```
+
+### Running The Application 
+
+Start the development server by running the following command:
+
+```
+
+npm run dev
+
+```
+
+Then access the app locally by putting [http://localhost:3000] in a search browser. 
 
 ---
 

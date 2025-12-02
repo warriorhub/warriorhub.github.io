@@ -99,8 +99,6 @@ Here are our goals throughout this project, separated into Milestones. They can 
 
 ## Deployment
 
-### Vercel 
-
 To make WarriorHub easily accessible to the UH Mānoa community, we’ve deployed our application using Vercel, a powerful platform for frontend frameworks and static sites. Vercel streamlines the deployment process, offering continuous integration with GitHub and automatic updates every time changes are pushed to the main branch.
 
 You can access the deployed WarriorHub here: [https://warriorhub-gamma.vercel.app/](https://warriorhub-gamma.vercel.app/)
@@ -116,8 +114,6 @@ The app will include three roles:
 1. **Users:** Students log in with their UH email, set event and location preferences, and view customized recommendations.  
 2. **Organizers:** Event planners can upload and manage events related to their department, hall, or organization.  
 3. **Admins:** Oversee organizer accounts, approve or edit events, and ensure quality control.  
-
-Users will be able to include their preferences, like their favorite event and their specific residence hall. This will allow the app to show more content relevant to them and give accurate recommendations.
 
 ---
 
@@ -181,19 +177,6 @@ Anyone visting the site can click on the "View Details" button on event cards to
 </p>
 
 --- 
-
-### User Home Page Mockup
-
-When a user signs up or logs in, they can click on the "Home" link in the navbar and be taken to a list of all events which they can now RSVP for. This includes upcoming events as well as past events, like the landing page. 
-
----
-
-### Admin Home Page Mockup
-
-When an admin signs up or logs in, they can click on the “Home” link in the navbar and be taken to a list of all events, like the landing page.
-They can then have permission to add/delete/edit the event via the [Add / Delete / Edit Event Page](#Add/Delete/Edit-Event-Page-Mockup).
-
----
 
 ### Organizer Home Page Mockup
 
@@ -261,10 +244,10 @@ Anyone visiting the site should have access to the landing page. Here the websit
   <img src="images/web/landing_page_1.png" alt="Landing Page" width="100%">
 </p>
 <p align="center">
-  <img src="images/mockup/landing_page_2.png" alt="Landing Page" width="100%">
+  <img src="images/web/landing_page2.png" alt="Landing Page" width="100%">
 </p>
 <p align="center">
-  <img src="images/mockup/landing_page_3.png" alt="Landing Page" width="100%">
+  <img src="images/mockup/landing_page3.png" alt="Landing Page" width="100%">
 </p>
 
 --- 
@@ -287,9 +270,7 @@ If an existing user is accessing the website, they can sign in to the website by
 
 ### Calendar Page
 
-Anyone visiting the site should have access to the Calendar Page to visually track upcoming events, features include:
-* Events for that month
-* Ability to view events on specific days
+Anyone visiting the site should have access to the Calendar Page to visually track upcoming events.
 
 <p align="center">
   <img src="images/web/calendar_page.png" alt="Calendar Page" width="100%">
@@ -299,13 +280,24 @@ Anyone visiting the site should have access to the Calendar Page to visually tra
 
 ### Search Events Page
 
-Anyone visiting the site can also search through the events in the database through the search page. They have the option of searching by category or location, or by typing in search terms.
+Anyone visiting the site can also search through the events in the database through the Search Events page. They have the option of searching by name, location, organization, or date.
+
+<p align="center">
+  <img src="images/web/search_events1.png" alt="Search Events Page" width="100%">
+</p> 
+<p align="center">
+  <img src="images/web/search_events2.png" alt="Search Events Page" width="100%">
+</p> 
 
 --- 
 
 ### Event Details Page
 
-Anyone visting the site can click on the "View Details" button on event cards to be presented a detailed event details pop-up that provides additional information for the event like description, time, date, and etc. 
+Anyone visting the site can click on the "View Page" button on event cards to be presented a detailed event details pop-up that provides additional information for the event like description, time, date, location, organizer, etc. The "Interested" button only appears on the Event Details page if the signed-in account has the role type of user.
+
+<p align="center">
+  <img src="images/web/event_details.png" alt="Event Details Page" width="100%">
+</p> 
 
 --- 
 
@@ -319,7 +311,7 @@ When a user signs up or logs in, they can click on the "Home" link in the navbar
 
 ### Home Page (Organizer)
 
-When an organizer signs up or logs in, they can click on the “Home” link in the navbar and be taken to a list of all events they have created. They can then have permission to add/delete/edit their events via the [Add / Delete / Edit Event Page](#Add/Delete/Edit-Event-Page-Mockup).
+When an organizer signs up or logs in, they can click on the “Home” link in the navbar and be taken to a list of all the features they have access to. This includes "Create Events" and "Manage Events" on the Organizer Dashboard. 
 
 <p align="center">
   <img src="images/web/home_organizer.png" alt="Organizer Home Page" width="100%">
@@ -327,10 +319,18 @@ When an organizer signs up or logs in, they can click on the “Home” link in 
 
 ### Home Page (Admin)
 
-When an admin signs up or logs in, they can click on the “Home” link in the navbar and be taken to a list of all events, like the landing page. They can then have permission to add/delete/edit the event via the [Add / Delete / Edit Event Page](#Add/Delete/Edit-Event-Page-Mockup).
+When an admin signs up or logs in, they can click on the “Home” link in the navbar and be taken to a list of all accounts in the database. Admins have access to editing the role types of all accounts to ensure that only verified organizations are granted the role of organizer by clicking "Edit".
 
 <p align="center">
   <img src="images/web/home_admin.png" alt="Admin Home Page" width="100%">
+</p> 
+
+#### Home Page Edit User (Admin) 
+
+Below is the Admin Edit User Page where admins can change any account's role type. 
+
+<p align="center">
+  <img src="images/web/home_admin_edit.png" alt="Admin Home Page Edit User" width="100%">
 </p> 
 
 ---
@@ -363,8 +363,7 @@ Users can access their events in a card format as well as the table view shown p
 
 ### My Events Page (Organizer)
 
-The My Events Page allows organizers to track their events by clicking "My Events" in the navbar. Here, organizers can see their event, status, organizer, location, category, recursion, and start and end dates. They can also view, edit, and delete thier events by clicking their repective links, [Add / Delete / Edit Event Buttons](###Add/Delete/Edit-Event-Page).
-
+The My Events Page allows organizers to track their events by clicking "My Events" in the navbar. Here, organizers can see their event, status, organizer, location, category, recursion, and start and end dates. They can also view, edit, and delete thier events by clicking their repective links.
 <p align="center">
   <img src="images/web/myevents_organizer.png" alt="Organizer My Events Page" width="100%">
 </p> 
@@ -389,7 +388,7 @@ Organizers can access their events in a card format as well as the table view sh
 
 ### List Events Page (Admin)
 
-The List Events Page allows admins to access a list of all events in the database. They can then have permission to add/delete/edit any event via the [Add / Delete / Edit Event Buttons](###Add/Delete/Edit-Event-Page).
+The List Events Page allows admins to access a list of all events in the database. They can then have permission to add/delete/edit any event by clicking their repective links/buttons.
 
 <p align="center">
   <img src="images/web/list_events.png" alt="List Events Page" width="100%">
@@ -436,7 +435,7 @@ Organizers can upload and manage (add/delete/edit) events related to their organ
 
 ### Add / Delete / Edit Event Page (Admin)
 
-Admins can upload and manage (add/delete/edit) any/all events in their "My Events" page to ensure quality control.  
+Admins can upload and manage (add/delete/edit) any/all events in their List Events page to ensure quality control.  
 
 <p align="center">
   <img src="images/web/edit_event_admin1.png" alt="Admin Edit Page" width="100%">
@@ -481,9 +480,7 @@ DATABASE_URL="${POSTGRES_PRISMA_URL}"
 Change directories into your local copy of the repository, and run the following command to install third party libraries:
 
 ```
-
 npm install
-
 ```
 
 ### Setup The Database 
@@ -491,25 +488,19 @@ npm install
 Generate the Prisma client by running the following command:
 
 ```
-
 npx prisma generate
-
 ```
 
 Push the schema to the database by running the following command:
 
 ```
-
 npx prisma db push
-
 ```
 
 (Optional) Seed the database:
 
 ```
-
 npx prisma db seed
-
 ```
 
 ### Running The Application 
@@ -517,12 +508,26 @@ npx prisma db seed
 Start the development server by running the following command:
 
 ```
-
 npm run dev
-
 ```
 
 Then access the app locally by putting [http://localhost:3000](http://localhost:3000) in a search browser. 
+
+---
+
+### (Optional) Testing 
+
+Run Playwright tests using the following command:
+
+```
+npm run playwright-development
+```
+
+Run Jest using the following command:
+
+```
+npm test
+```
 
 ---
 

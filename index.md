@@ -234,16 +234,6 @@ Users can contact us through this page. Each of our names redirects to opening a
 
 ---
 
-### Add / Delete / Edit Event Page Mockup
-
-Once you are logged in, you can define new projects with the Edit Project page:
-
-1. **Users:** Can add/delete/edit their own archived events in their "My Events" page.
-2. **Organizers:** Can upload and manage events related to their organization in their "My Events" page.
-3. **Admins:** Can add/delete/edit any/all events in their "My Events" page to ensure quality control.  
-
----
-
 ### (Optional) Campus Map Page Mockup
 
 TBD
@@ -271,10 +261,10 @@ Anyone visiting the site should have access to the landing page. Here the websit
   <img src="images/web/landing_page_1.png" alt="Landing Page" width="100%">
 </p>
 <p align="center">
-  <img src="images/web/landing_page_2.png" alt="Landing Page" width="100%">
+  <img src="images/mockup/landing_page_2.png" alt="Landing Page" width="100%">
 </p>
 <p align="center">
-  <img src="images/web/landing_page_3.png" alt="Landing Page" width="100%">
+  <img src="images/mockup/landing_page_3.png" alt="Landing Page" width="100%">
 </p>
 
 --- 
@@ -360,8 +350,26 @@ The MyEvents Page allows signed-in users to archive their interested events for 
 The MyEvents Page allows signed-in users to archive their interested events for future use by clicking "MyEvents" in the navbar. Here, users can see the event, status, organizer, location, category, recursion, and start and end dates. 
 
 <p align="center">
-  <img src="images/web/myevents_organizer.png" alt="(Organizer My Events Page" width="100%">
+  <img src="images/web/myevents_organizer.png" alt="Organizer My Events Page" width="100%">
 </p> 
+
+#### My Events Page Past View (Organizer)
+
+Organizers can access their past events by clicking "Past".
+
+<p align="center">
+  <img src="images/web/myevents_past_organizer.png" alt="Organizer My Events Past View" width="100%">
+</p> 
+
+
+#### My Events Card View (Organizer)
+
+Organizers can access their events in a card format as well as the table view shown previously by clicking "Display Option".
+
+<p align="center">
+  <img src="images/web/myevents_card_organizer.png" alt="Organizer My Events Card View" width="100%">
+</p> 
+
 
 ### List Events Page (Admin)
 
@@ -400,9 +408,31 @@ Users can delete their interested events in their "My Events" page if they are n
 
 Organizers can upload and manage (add/delete/edit) events related to their organization in their "My Events" page.
 
+#### Edit Event Page (Organizer)
+
+<p align="center">
+  <img src="images/web/edit_event_organizer.png" alt="Organizer Edit Page" width="100%">
+</p>
+
+#### Add Event Page (Organizer)
+
+<p align="center">
+  <img src="images/web/add_event_organizer.png" alt="Organizer Add Page" width="100%">
+</p>
+<p align="center">
+  <img src="images/web/add_event_organizer.png" alt="Organizer Add Page" width="100%">
+</p>
+
 ### Add / Delete / Edit Event Page (Admin)
 
 Admins can upload and manage (add/delete/edit) any/all events in their "My Events" page to ensure quality control.  
+
+<p align="center">
+  <img src="images/web/edit_event_admin1.png" alt="Admin Edit Page" width="100%">
+</p>
+<p align="center">
+  <img src="images/web/edit_event_admin2.png" alt="Admin Edit Page" width="100%">
+</p>
 
 ---
 

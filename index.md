@@ -287,7 +287,7 @@ If an existing user is accessing the website, they can sign in to the website by
 
 ### Calendar Page
 
-The Calendar Page allows users to visually track upcoming events, features include:
+Anyone visiting the site should have access to the Calendar Page to visually track upcoming events, features include:
 * Events for that month
 * Ability to view events on specific days
 
@@ -319,8 +319,7 @@ When a user signs up or logs in, they can click on the "Home" link in the navbar
 
 ### Home Page (Organizer)
 
-When an organizer signs up or logs in, they can click on the “Home” link in the navbar and be taken to a list of all events they have created.
-They can then have permission to add/delete/edit their events via the [Add / Delete / Edit Event Page](#Add/Delete/Edit-Event-Page-Mockup).
+When an organizer signs up or logs in, they can click on the “Home” link in the navbar and be taken to a list of all events they have created. They can then have permission to add/delete/edit their events via the [Add / Delete / Edit Event Page](#Add/Delete/Edit-Event-Page-Mockup).
 
 <p align="center">
   <img src="images/web/home_organizer.png" alt="Organizer Home Page" width="100%">
@@ -328,8 +327,7 @@ They can then have permission to add/delete/edit their events via the [Add / Del
 
 ### Home Page (Admin)
 
-When an admin signs up or logs in, they can click on the “Home” link in the navbar and be taken to a list of all events, like the landing page.
-They can then have permission to add/delete/edit the event via the [Add / Delete / Edit Event Page](#Add/Delete/Edit-Event-Page-Mockup).
+When an admin signs up or logs in, they can click on the “Home” link in the navbar and be taken to a list of all events, like the landing page. They can then have permission to add/delete/edit the event via the [Add / Delete / Edit Event Page](#Add/Delete/Edit-Event-Page-Mockup).
 
 <p align="center">
   <img src="images/web/home_admin.png" alt="Admin Home Page" width="100%">
@@ -339,15 +337,33 @@ They can then have permission to add/delete/edit the event via the [Add / Delete
 
 ### My Events Page (User)
 
-The MyEvents Page allows signed-in users to archive their interested events for future use by clicking "MyEvents" in the navbar. Here, users can see the event, status, organizer, location, category, recursion, and start and end dates. 
+The My Events Page allows signed-in users to archive their interested events by clicking "My Events" in the navbar. Here, users can see the event, status, organizer, venue, category, recursion, and start and end dates. They can also remove events from their My Interested Events by clicking "Remove Interest".
 
 <p align="center">
   <img src="images/web/myevents_user.png" alt="User My Events Page" width="100%">
 </p> 
 
+#### My Events Page Past View (User)
+
+Users can access their past interested events by clicking "Past".
+
+<p align="center">
+  <img src="images/web/myevents_past_user.png" alt="User My Events Past View" width="100%">
+</p> 
+
+
+#### My Events Card View (User)
+
+Users can access their events in a card format as well as the table view shown previously by clicking "Display Option".
+
+<p align="center">
+  <img src="images/web/myevents_card_user.png" alt="User My Events Card View" width="100%">
+</p> 
+
+
 ### My Events Page (Organizer)
 
-The MyEvents Page allows signed-in users to archive their interested events for future use by clicking "MyEvents" in the navbar. Here, users can see the event, status, organizer, location, category, recursion, and start and end dates. 
+The My Events Page allows organizers to track their events by clicking "My Events" in the navbar. Here, organizers can see their event, status, organizer, location, category, recursion, and start and end dates. They can also view, edit, and delete thier events by clicking their repective links, [Add / Delete / Edit Event Buttons](###Add/Delete/Edit-Event-Page).
 
 <p align="center">
   <img src="images/web/myevents_organizer.png" alt="Organizer My Events Page" width="100%">
@@ -373,8 +389,7 @@ Organizers can access their events in a card format as well as the table view sh
 
 ### List Events Page (Admin)
 
-The List Events Page allows admins to access a list of all events in the database. 
-They can then have permission to add/delete/edit any event via the [Add / Delete / Edit Event Buttons](#Add/Delete/Edit-Event-Page).
+The List Events Page allows admins to access a list of all events in the database. They can then have permission to add/delete/edit any event via the [Add / Delete / Edit Event Buttons](###Add/Delete/Edit-Event-Page).
 
 <p align="center">
   <img src="images/web/list_events.png" alt="List Events Page" width="100%">
@@ -400,10 +415,6 @@ Users can contact us through this page. Each of our names redirects to opening a
 
 ---
 
-### Delete Event Page (User)
-
-Users can delete their interested events in their "My Events" page if they are no longer interested.
-
 ### Add / Delete / Edit Event Page (Organizer)
 
 Organizers can upload and manage (add/delete/edit) events related to their organization in their "My Events" page.
@@ -417,10 +428,10 @@ Organizers can upload and manage (add/delete/edit) events related to their organ
 #### Add Event Page (Organizer)
 
 <p align="center">
-  <img src="images/web/add_event_organizer.png" alt="Organizer Add Page" width="100%">
+  <img src="images/web/add_event_organizer1.png" alt="Organizer Add Page" width="100%">
 </p>
 <p align="center">
-  <img src="images/web/add_event_organizer.png" alt="Organizer Add Page" width="100%">
+  <img src="images/web/add_event_organizer2.png" alt="Organizer Add Page" width="100%">
 </p>
 
 ### Add / Delete / Edit Event Page (Admin)
@@ -511,7 +522,7 @@ npm run dev
 
 ```
 
-Then access the app locally by putting [http://localhost:3000] in a search browser. 
+Then access the app locally by putting [http://localhost:3000](http://localhost:3000) in a search browser. 
 
 ---
 

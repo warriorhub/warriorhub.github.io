@@ -244,16 +244,6 @@ Once you are logged in, you can define new projects with the Edit Project page:
 
 ---
 
-### Calendar Page Mockup
-
-Features of the Calendar Page
-
-* Calendar showing a month at a time
-* Events for that month
-* Ability to view events on specific days
-
----
-
 ### (Optional) Campus Map Page Mockup
 
 TBD
@@ -273,6 +263,147 @@ Features of the Profile Page
 
 This section provides a detailed walkthrough of the WarriorHub user interface, its pages, and its functionalities.
 
+### Landing Page
+
+Anyone visiting the site should have access to the landing page. Here the website displays some of its features to those who have not signed in yet. It should show the application name on the top right, navbar on the top, filters to search for events in the header, and carousels showing images of upcoming events.
+
+<p align="center">
+  <img src="images/web/landing_page_1.png" alt="Landing Page" width="100%">
+</p>
+<p align="center">
+  <img src="images/web/landing_page_2.png" alt="Landing Page" width="100%">
+</p>
+<p align="center">
+  <img src="images/web/landing_page_3.png" alt="Landing Page" width="100%">
+</p>
+
+--- 
+
+### Sign Up and Sign In Page
+
+If a new user is accessing the website, they have the option to register as a new user by clicking the “Login” button in the upper right corner of the page, clicking “Sign Up”, registering their @hawaii.edu email address, and deciding on a password.
+
+<p align="center">
+  <img src="images/web/signin_page.png" alt="Sign In Page" width="100%">
+</p> 
+
+If an existing user is accessing the website, they can sign in to the website by clicking the “Login” button in the upper right corner of the page, clicking “Sign In”, entering their email address, and inputting their password.
+
+<p align="center">
+  <img src="images/web/signup_page.png" alt="Sign Up Page" width="100%">
+</p>
+
+--- 
+
+### Calendar Page
+
+The Calendar Page allows users to visually track upcoming events, features include:
+* Events for that month
+* Ability to view events on specific days
+
+<p align="center">
+  <img src="images/web/calendar_page.png" alt="Calendar Page" width="100%">
+</p>
+
+--- 
+
+### Search Events Page
+
+Anyone visiting the site can also search through the events in the database through the search page. They have the option of searching by category or location, or by typing in search terms.
+
+--- 
+
+### Event Details Page
+
+Anyone visting the site can click on the "View Details" button on event cards to be presented a detailed event details pop-up that provides additional information for the event like description, time, date, and etc. 
+
+--- 
+
+### Home Page (User)
+
+When a user signs up or logs in, they can click on the "Home" link in the navbar and be taken to a list of all events which they can now RSVP for. This includes upcoming events as well as past events, like the landing page. 
+
+<p align="center">
+  <img src="images/web/home_user.png" alt="User Home Page" width="100%">
+</p> 
+
+### Home Page (Organizer)
+
+When an organizer signs up or logs in, they can click on the “Home” link in the navbar and be taken to a list of all events they have created.
+They can then have permission to add/delete/edit their events via the [Add / Delete / Edit Event Page](#Add/Delete/Edit-Event-Page-Mockup).
+
+<p align="center">
+  <img src="images/web/home_organizer.png" alt="Organizer Home Page" width="100%">
+</p> 
+
+### Home Page (Admin)
+
+When an admin signs up or logs in, they can click on the “Home” link in the navbar and be taken to a list of all events, like the landing page.
+They can then have permission to add/delete/edit the event via the [Add / Delete / Edit Event Page](#Add/Delete/Edit-Event-Page-Mockup).
+
+<p align="center">
+  <img src="images/web/home_admin.png" alt="Admin Home Page" width="100%">
+</p> 
+
+---
+
+### My Events Page (User)
+
+The MyEvents Page allows signed-in users to archive their interested events for future use by clicking "MyEvents" in the navbar. Here, users can see the event, status, organizer, location, category, recursion, and start and end dates. 
+
+<p align="center">
+  <img src="images/web/myevents_user.png" alt="User My Events Page" width="100%">
+</p> 
+
+### My Events Page (Organizer)
+
+The MyEvents Page allows signed-in users to archive their interested events for future use by clicking "MyEvents" in the navbar. Here, users can see the event, status, organizer, location, category, recursion, and start and end dates. 
+
+<p align="center">
+  <img src="images/web/myevents_organizer.png" alt="(Organizer My Events Page" width="100%">
+</p> 
+
+### List Events Page (Admin)
+
+The List Events Page allows admins to access a list of all events in the database. 
+They can then have permission to add/delete/edit any event via the [Add / Delete / Edit Event Buttons](#Add/Delete/Edit-Event-Page).
+
+<p align="center">
+  <img src="images/web/list_events.png" alt="List Events Page" width="100%">
+</p> 
+
+---
+
+### Help Page
+
+Anyone using the application can view this page to see the members behind the creation of this application by clicking "Help". An overview of our goal and github.io main page is at the top and a collection of our information such as eduation and email are below.
+
+Users can contact us through this page. Each of our names redirects to opening an email with our respective hawaii.edu email address. Users who are event organizers can contact us to request a higher level of permissions to create/edit/delete their events.
+
+<p align="center">
+  <img src="images/web/help_page1.png" alt="Help Page" width="100%">
+</p>
+<p align="center">
+  <img src="images/mockup/help_page2.png" alt="Help Page" width="100%">
+</p>
+<p align="center">
+  <img src="images/mockup/help_page3.png" alt="Help Page" width="100%">
+</p>
+
+---
+
+### Delete Event Page (User)
+
+Users can delete their interested events in their "My Events" page if they are no longer interested.
+
+### Add / Delete / Edit Event Page (Organizer)
+
+Organizers can upload and manage (add/delete/edit) events related to their organization in their "My Events" page.
+
+### Add / Delete / Edit Event Page (Admin)
+
+Admins can upload and manage (add/delete/edit) any/all events in their "My Events" page to ensure quality control.  
+
 ---
 
 ## Developer Guide
@@ -282,6 +413,27 @@ This guide provides an in-depth explanation on how to download, install, and run
 ### Downloading The Project 
 
 First clone the WarriorHub repository: [WarriorHub](https://github.com/warriorhub/warriorhub)
+
+### Environment Setup 
+
+Create a .env file in the project root and paste the environment variables from Vercel Postgres. Here's an example .env:
+
+```
+
+NEXTAUTH_SECRET=your-secret-here
+NEXTAUTH_URL=http://localhost:3000
+
+POSTGRES_DATABASE="verceldb"
+POSTGRES_HOST="***"
+POSTGRES_PASSWORD="***"
+POSTGRES_USER="default"
+POSTGRES_PRISMA_URL="postgres://..."
+POSTGRES_URL_NON_POOLING="postgres://..."
+POSTGRES_URL_NO_SSL="postgres://..."
+
+DATABASE_URL="${POSTGRES_PRISMA_URL}"
+
+```
 
 ### Installing Dependencies 
 

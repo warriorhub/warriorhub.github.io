@@ -1,5 +1,7 @@
 # WarriorHub: UH Mānoa Event Scheduler
 
+[![ci-warriorhub](https://github.com/warriorhub/warriorhub/actions/workflows/ci.yml/badge.svg)](https://github.com/warriorhub/warriorhub/actions/workflows/ci.yml)
+
 ## Table of contents
 
 * [Overview](#overview)

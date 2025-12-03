@@ -109,8 +109,6 @@ You can access the deployed WarriorHub here: [https://warriorhub-gamma.vercel.ap
 
 This app will create an organized platform to present UH Mānoa–specific events in a unified student interface, with three role options.  
 
-The app will include three roles:
-
 1. **Users:** Students log in with their UH email, set event and location preferences, and view customized recommendations.  
 2. **Organizers:** Event planners can upload and manage events related to their department, hall, or organization.  
 3. **Admins:** Oversee organizer accounts, approve or edit events, and ensure quality control.  
@@ -120,6 +118,12 @@ The app will include three roles:
 ### Use Cases
 
 Our team's Use Cases can be found in [Use Cases](https://docs.google.com/presentation/d/1rMw5UsXPZhZZf5LEHpWYX6agsifNRFDt9q4ffFhPQIg/edit?usp=sharing)
+
+---
+
+### Test Cases
+
+Our team's Test Cases can be found in [Test Cases](https://docs.google.com/document/d/19iKM6pti3KDqAr3zoeSKDaKKe0pFQD0zeyIBf0SXxpQ/edit?usp=sharing)
 
 ---
 
@@ -178,17 +182,6 @@ Anyone visting the site can click on the "View Details" button on event cards to
 
 --- 
 
-### Organizer Home Page Mockup
-
-When an organizer signs up or logs in, they can click on the “Home” link in the navbar and be taken to a list of all events they have created.
-They can then have permission to add/delete/edit their events via the [Add / Delete / Edit Event Page](#Add/Delete/Edit-Event-Page-Mockup).
-
-<p align="center">
-  <img src="images/mockup/OrganizerHome.png" alt="Organizer Home Page" width="100%">
-</p> 
-
----
-
 ### MyEvents Page Mockup
 
 The MyEvents Page allows signed-in users to archive their interested events for future use by clicking "MyEvents" in the navbar. Here, users can see the event, status, organizer, location, category, recursion, and start and end dates. 
@@ -217,24 +210,11 @@ Users can contact us through this page. Each of our names redirects to opening a
 
 ---
 
-### (Optional) Campus Map Page Mockup
-
-TBD
-
----
-
-### (Optional) User / Admin / Organizer Profile Page Mockup
-
-Features of the Profile Page
-
-* View user profile
-* Edit user profile
-
----
-
 ## User Guide
 
-This section provides a detailed walkthrough of the WarriorHub user interface, its pages, and its functionalities.
+This section provides a detailed walkthrough of the WarriorHub interface, its pages, and its functionalities. To access the varying functional features which are specific to each role type, use example accounts for their respective role type.
+
+---
 
 ### Landing Page
 

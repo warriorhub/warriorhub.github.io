@@ -252,7 +252,7 @@ If an existing user is accessing the website, they can sign in to the website by
 
 ### Calendar Page
 
-Anyone visiting the site should have access to the Calendar Page to visually track upcoming events.
+Anyone visiting the site should have access to the Calendar Page to visually track upcoming events. They can click on indiviual events to see more event details.
 
 <p align="center">
   <img src="images/web/calendar_page.png" alt="Calendar Page" width="100%">
@@ -262,7 +262,7 @@ Anyone visiting the site should have access to the Calendar Page to visually tra
 
 ### Search Events Page
 
-Anyone visiting the site can also search through the events in the database through the Search Events page. They have the option of searching by name, location, organization, or date.
+Anyone visiting the site can also search through the events in the database through the Search Events page. They have the option of searching by name, location, organization, or date, they can also scroll through upcoming events.
 
 <p align="center">
   <img src="images/web/search_events1.png" alt="Search Events Page" width="100%">
@@ -293,7 +293,7 @@ When a user signs up or logs in, they can click on the "Home" link in the navbar
 
 ### Home Page (Organizer)
 
-When an organizer signs up or logs in, they can click on the “Home” link in the navbar and be taken to a list of all the features they have access to. This includes "Create Events" and "Manage Events" on the Organizer Dashboard. 
+When an organizer signs up or logs in, they can click on the “Home” link in the navbar and be taken to their profile settings. Here, they can change their Organization name such that their events will display both their Organization name and email.
 
 <p align="center">
   <img src="images/web/home_organizer.png" alt="Organizer Home Page" width="100%">
@@ -309,7 +309,7 @@ When an admin signs up or logs in, they can click on the “Home” link in the 
 
 #### Home Page Edit User (Admin) 
 
-Below is the Admin Edit User Page where admins can change any account's role type. 
+Below is the Admin Edit User Page where admins can change any account's role type, to ensure quality control of authorized account types.
 
 <p align="center">
   <img src="images/web/home_admin_edit.png" alt="Admin Home Page Edit User" width="100%">
@@ -345,7 +345,7 @@ Users can access their events in a card format as well as the table view shown p
 
 ### My Events Page (Organizer)
 
-The My Events Page allows organizers to track their events by clicking "My Events" in the navbar. Here, organizers can see their event, status, organizer, location, category, recursion, and start and end dates. They can also view, edit, and delete thier events by clicking their repective links.
+The My Events Page allows organizers to track their events by clicking "My Events" in the navbar. Here, organizers can see their event, status, organizer, location, category, recursion, and start and end dates. They can also view, edit, and delete their events by clicking their repective links.
 <p align="center">
   <img src="images/web/myevents_organizer.png" alt="Organizer My Events Page" width="100%">
 </p> 
@@ -396,17 +396,21 @@ Users can contact us through this page. Each of our names redirects to opening a
 
 ---
 
-### Add / Delete / Edit Event Page (Organizer)
+### Add / Edit Event Page (Organizer)
 
 Organizers can upload and manage (add/delete/edit) events related to their organization in their "My Events" page.
 
 #### Edit Event Page (Organizer)
+
+This is where Organizers can edit their already created events.
 
 <p align="center">
   <img src="images/web/edit_event_organizer.png" alt="Organizer Edit Page" width="100%">
 </p>
 
 #### Add Event Page (Organizer)
+
+This is where Organizers can add new events.
 
 <p align="center">
   <img src="images/web/add_event_organizer1.png" alt="Organizer Add Page" width="100%">
@@ -419,12 +423,21 @@ Organizers can upload and manage (add/delete/edit) events related to their organ
 
 Admins can upload and manage (add/delete/edit) any/all events in their List Events page to ensure quality control.  
 
+#### Delete / Edit Event Page (Admin)
+
+This is where Admins can delete and edit any/all events in the database.
+
 <p align="center">
   <img src="images/web/edit_event_admin1.png" alt="Admin Edit Page" width="100%">
 </p>
 <p align="center">
   <img src="images/web/edit_event_admin2.png" alt="Admin Edit Page" width="100%">
 </p>
+
+#### Add Event Page (Admin)
+
+This is where Admins can add any new events to the database. 
+
 
 ---
 

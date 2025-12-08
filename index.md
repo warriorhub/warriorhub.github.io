@@ -113,7 +113,7 @@ This app will create an organized platform to present UH Mānoa–specific event
 
 1. **Users:** Students log in with their UH email, set event and location preferences, and view customized recommendations.  
 2. **Organizers:** Event planners can upload and manage events related to their department, hall, or organization.  
-3. **Admins:** Oversee organizer accounts, approve or edit events, and ensure quality control.  
+3. **Admins:** Oversee organizer accounts, manage events, and ensure quality control.  
 
 ---
 
@@ -421,7 +421,7 @@ This is where Organizers can add new events.
 
 ### Add / Delete / Edit Event Page (Admin)
 
-Admins can upload and manage (add/delete/edit) any/all events in their List Events page to ensure quality control.  
+Admins can upload and manage (delete/edit) any/all events in their List Events page to ensure quality control.  
 
 #### Delete / Edit Event Page (Admin)
 
@@ -433,11 +433,6 @@ This is where Admins can delete and edit any/all events in the database.
 <p align="center">
   <img src="images/web/edit_event_admin2.png" alt="Admin Edit Page" width="100%">
 </p>
-
-#### Add Event Page (Admin)
-
-This is where Admins can add any new events to the database. 
-
 
 ---
 

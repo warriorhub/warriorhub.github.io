@@ -17,9 +17,12 @@
 
 ## Overview
 
-WarriorHub is a web application that will provide UH Mānoa students to browse on-campus events all in one place. With WarriorHub, students will no longer have to search across multiple websites and calenders to find events that interests them. Now students may experience the campus life to the fullest and stay informed about activities that they enjoy. Users will be able to browse, search, and filter events that are most relevant to them. The web application will allow three types of users: students, admins, and organizers.
 
-* Students can browse and RSVP for events
+WarriorHub is a centralized event discovery platform designed specifically for students at the University of Hawai‘i at Mānoa. The platform provides a single location to explore on-campus activities, eliminating the need to navigate multiple calendars or department websites. Students can view upcoming opportunities, learn about organizations, and stay connected with student life throughout the semester.
+
+Using WarriorHub, students can browse and filter events based on category, location, or personal preference. The web application will allow three types of users: students, organizers, and admins. 
+
+* Students can browse events and set preferences
 * Organizers can create and manage events
 * Admins will validate new events, manage event quality, and organizer accounts
 
@@ -27,10 +30,8 @@ WarriorHub is a web application that will provide UH Mānoa students to browse o
 
 ### The Problem
 
-Currently, UH Mānoa has several different event calendars with varying functionality, which are all disconnected from each other.  
-For instance, Hamilton Library has its own calendar with events such as trivia night and board game night; however, these events are not advertised on the [UH Mānoa Events Calendar](https://www.hawaii.edu/calendar/manoa/2025/11/5).  
 
-Moreover, events cannot be filtered by category, often leaving users with inefficient visualizations. This results in students having to check multiple sites to find relevant events, which leads to lower attendance.
+UH Mānoa has multiple independent event calendars, leading to missed opportunities and overlooked events due to the absence of filtering options. This makes finding relevant events difficult, reducing participation and visibility.
 
 ---
 
@@ -517,8 +518,8 @@ TBD
 
 Additional planned features include:
 
-* Notify students via email and SMS reminders of upcoming events that they have RSVPed for and notifying similar events that are coming up that they might be interested in.
+* Notify students via email and SMS reminders of upcoming events, and notify them of similar events that are coming up that they might be interested in.
 * Map viewing showing the location of nearby events.  
-* System for reviews on events, allowing RSVP students to give anonymous feedback of the event after they have attended.
+* System for reviews on events, allowing students to give anonymous feedback of the event after they have attended.
 * Allow users to ‘like’ certain events that would give the program better suggestions on what kind of events a user would like to attend for personalized recommendations.
 * Engagement points for people who attend events and reward badges for users to unlock. (i.e “Athletics Fan”, “Music Jammer”, “Foodie”, etc.)

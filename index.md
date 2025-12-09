@@ -131,7 +131,7 @@ Our team's Test Cases can be found in [Test Cases](https://docs.google.com/docum
 
 ### Landing Page Mockup
 
-Anyone visiting the site should have access to the landing page. Here the website displays some of its features to those who have not signed in yet. It should show the application name on the top right, navbar on the top, filters to search for events in the header, and carousels showing images of upcoming events.
+Anyone visiting the site should have access to the landing page. Here the website displays some of its features to those who have not signed in yet. It should show the application name on the top left, navbar on the top, filters to search for events in the header, and carousels showing images of upcoming events.
 
 <p align="center">
   <img src="images/mockup/landing_page1.png" alt="Landing Page" width="100%">
@@ -220,7 +220,7 @@ This section provides a detailed walkthrough of the WarriorHub interface, its pa
 
 ### Landing Page
 
-Anyone visiting the site should have access to the landing page. Here the website displays some of its features to those who have not signed in yet. It should show the application name on the top right, navbar on the top, filters to search for events in the header, and carousels showing images of upcoming events.
+Anyone visiting the site should have access to the landing page. Here the website displays some of its features to those who have not signed in yet. It should show the application name on the top left, navbar on the top, and carousels showing images of featured events.
 
 <p align="center">
   <img src="images/web/landing_page1.png" alt="Landing Page" width="100%">
@@ -246,6 +246,24 @@ If an existing user is accessing the website, they can sign in to the website by
 
 <p align="center">
   <img src="images/web/signup_page.png" alt="Sign Up Page" width="100%">
+</p>
+
+---
+
+### Help Page
+
+Anyone using the application can view this page to see the members behind the creation of this application by clicking "Help". An overview of our goal and github.io main page is at the top and a collection of our information such as eduation and email are below.
+
+Users can contact us through this page. Each of our names redirects to opening an email with our respective hawaii.edu email address. Users who are event organizers can contact us to request a higher level of permissions to create/edit/delete their events.
+
+<p align="center">
+  <img src="images/web/help_page1.png" alt="Help Page" width="100%">
+</p>
+<p align="center">
+  <img src="images/mockup/help_page2.png" alt="Help Page" width="100%">
+</p>
+<p align="center">
+  <img src="images/mockup/help_page3.png" alt="Help Page" width="100%">
 </p>
 
 --- 
@@ -285,7 +303,7 @@ Anyone visting the site can click on the "View Page" button on event cards to be
 
 ### Home Page (User)
 
-When a user signs up or logs in, they can click on the "Home" link in the navbar and be taken to a list of all events which they can now RSVP for. This includes upcoming events as well as past events, like the landing page. 
+When a user signs up or logs in, they can click on the "Home" link in the navbar and be taken to a list of all events which they can now be "Interested" in. This includes upcoming events as well as past events, like the landing page. 
 
 <p align="center">
   <img src="images/web/home_user.png" alt="User Home Page" width="100%">
@@ -368,41 +386,9 @@ Organizers can access their events in a card format as well as the table view sh
 </p> 
 
 
-### List Events Page (Admin)
-
-The List Events Page allows admins to access a list of all events in the database. They can then have permission to add/delete/edit any event by clicking their repective links/buttons.
-
-<p align="center">
-  <img src="images/web/list_events.png" alt="List Events Page" width="100%">
-</p> 
-
----
-
-### Help Page
-
-Anyone using the application can view this page to see the members behind the creation of this application by clicking "Help". An overview of our goal and github.io main page is at the top and a collection of our information such as eduation and email are below.
-
-Users can contact us through this page. Each of our names redirects to opening an email with our respective hawaii.edu email address. Users who are event organizers can contact us to request a higher level of permissions to create/edit/delete their events.
-
-<p align="center">
-  <img src="images/web/help_page1.png" alt="Help Page" width="100%">
-</p>
-<p align="center">
-  <img src="images/mockup/help_page2.png" alt="Help Page" width="100%">
-</p>
-<p align="center">
-  <img src="images/mockup/help_page3.png" alt="Help Page" width="100%">
-</p>
-
----
-
-### Add / Edit Event Page (Organizer)
-
-Organizers can upload and manage (add/delete/edit) events related to their organization in their "My Events" page.
-
 #### Edit Event Page (Organizer)
 
-This is where Organizers can edit their already created events.
+This is where organizers can edit their already created events after clicking the "edit" link in their "My Events" page.
 
 <p align="center">
   <img src="images/web/edit_event_organizer.png" alt="Organizer Edit Page" width="100%">
@@ -410,19 +396,25 @@ This is where Organizers can edit their already created events.
 
 #### Add Event Page (Organizer)
 
-This is where Organizers can add new events.
+This is where organizers can add new events related to their organization, after clicking the "ADD NEW" button in their "My Events" page.
 
 <p align="center">
   <img src="images/web/add_event_organizer.png" alt="Organizer Add Page" width="100%">
 </p>
 
-### Add / Delete / Edit Event Page (Admin)
+---
 
-Admins can upload and manage (delete/edit) any/all events in their List Events page to ensure quality control.  
+### List Events Page (Admin)
+
+The List Events Page allows admins to access a list of all events in the database. They can then have permission to delete and edit any event by clicking their repective buttons.
+
+<p align="center">
+  <img src="images/web/list_events.png" alt="List Events Page" width="100%">
+</p> 
 
 #### Delete / Edit Event Page (Admin)
 
-This is where Admins can delete and edit any/all events in the database.
+Admins can upload and manage (delete/edit) any/all events in their List Events page to ensure quality control. This is where Admins can delete and edit any/all events in the database after clicking the "edit" button.
 
 <p align="center">
   <img src="images/web/edit_event_admin.png" alt="Admin Edit Page" width="100%">

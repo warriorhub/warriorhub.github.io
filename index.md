@@ -413,10 +413,7 @@ This is where Organizers can edit their already created events.
 This is where Organizers can add new events.
 
 <p align="center">
-  <img src="images/web/add_event_organizer1.png" alt="Organizer Add Page" width="100%">
-</p>
-<p align="center">
-  <img src="images/web/add_event_organizer2.png" alt="Organizer Add Page" width="100%">
+  <img src="images/web/add_event_organizer.png" alt="Organizer Add Page" width="100%">
 </p>
 
 ### Add / Delete / Edit Event Page (Admin)

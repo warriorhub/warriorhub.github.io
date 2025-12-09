@@ -223,7 +223,7 @@ This section provides a detailed walkthrough of the WarriorHub interface, its pa
 Anyone visiting the site should have access to the landing page. Here the website displays some of its features to those who have not signed in yet. It should show the application name on the top right, navbar on the top, filters to search for events in the header, and carousels showing images of upcoming events.
 
 <p align="center">
-  <img src="images/web/landing_page_1.png" alt="Landing Page" width="100%">
+  <img src="images/web/landing_page1.png" alt="Landing Page" width="100%">
 </p>
 <p align="center">
   <img src="images/web/landing_page2.png" alt="Landing Page" width="100%">
@@ -262,7 +262,7 @@ Anyone visiting the site should have access to the Calendar Page to visually tra
 
 ### Search Events Page
 
-Anyone visiting the site can also search through the events in the database through the Search Events page. They have the option of searching by name, location, organization, or date, they can also scroll through upcoming events.
+Anyone visiting the site can also search through the events in the database through the Search Events page. They have the option of searching by name, location, organization, or date, they can also scroll through upcoming events. Additionally, clicking the various categories button will filter the events respective to the selected category.
 
 <p align="center">
   <img src="images/web/search_events1.png" alt="Search Events Page" width="100%">
@@ -428,10 +428,7 @@ Admins can upload and manage (delete/edit) any/all events in their List Events p
 This is where Admins can delete and edit any/all events in the database.
 
 <p align="center">
-  <img src="images/web/edit_event_admin1.png" alt="Admin Edit Page" width="100%">
-</p>
-<p align="center">
-  <img src="images/web/edit_event_admin2.png" alt="Admin Edit Page" width="100%">
+  <img src="images/web/edit_event_admin.png" alt="Admin Edit Page" width="100%">
 </p>
 
 ---

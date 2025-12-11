@@ -427,9 +427,34 @@ Admins can upload and manage (delete/edit) any/all events in their List Events p
 
 This guide provides an in-depth explanation on how to download, install, and run WarriorHub for new developers joining the project and contributors.
 
-### Downloading The Project 
+### Installation
 
-First clone the WarriorHub repository: [WarriorHub](https://github.com/warriorhub/warriorhub)
+```
+createdb warriorhub
+Password:
+
+
+```
+
+### Clone the Repository 
+
+Go to your WarriorHub GitHub repository, then click Clone or copy the HTTPS/SSH URL. Clone it locally: 
+
+```
+
+git clone https://github.com/<your-username>/warriorhub.git
+cd warriorhub
+
+```
+
+### Installing Dependencies 
+
+Install required Node.js packages: 
+
+```
+npm install
+
+```
 
 ### Environment Setup 
 
@@ -452,32 +477,30 @@ DATABASE_URL="${POSTGRES_PRISMA_URL}"
 
 ```
 
-### Installing Dependencies 
+### Setup The Prisma 
 
-Change directories into your local copy of the repository, and run the following command to install third party libraries:
-
-```
-npm install
-```
-
-### Setup The Database 
-
-Generate the Prisma client by running the following command:
+Run migrations to create database tables:
 
 ```
+
+npx prisma migrate dev
+
+```
+
+Generate the Prisma client (ensures TypeScript/JS can access the database models):
+
+```
+
 npx prisma generate
-```
-
-Push the schema to the database by running the following command:
 
 ```
-npx prisma db push
-```
 
-(Optional) Seed the database:
+Seed the database with default users and roles:
 
 ```
+
 npx prisma db seed
+
 ```
 
 ### Running The Application 
@@ -486,32 +509,199 @@ Start the development server by running the following command:
 
 ```
 npm run dev
+
 ```
 
 Then access the app locally by putting [http://localhost:3000](http://localhost:3000) in a search browser. 
 
 ---
 
+### Directory Structure
+
+```
+
+├─ prisma/          # Prisma schema, migrations, seed scripts
+├─ src/
+│  ├─ app/
+│  │  ├─ admin/        # Admin pages
+│  │  ├─ organizer/    # Organizer pages
+│  │  ├─ auth/         # Sign in, sign up, authentication
+│  │  ├─ calendar/     # Interactive event calendar
+│  │  ├─ event/        # Event detail & CRUD pages
+│  │  ├─ profile/      # User profile pages
+│  │  ├─ map/          # Campus map
+│  │  ├─ layout.tsx    # Global layout
+│  │  └─ page.tsx      # Landing page
+│  ├─ components/      # React components (Forms, Navbar, Footer, etc.)
+│  └─ lib/             # Utilities (Prisma client, DB actions, auth checks)
+├─ public/           # Images, icons, static assets
+├─ config/           # Config files (example: event categories)
+├─ tests/            # Playwright test files
+├─ .eslintrc.json    # ESLint configuration
+└─ package.json      # NPM scripts
+
+```
+
+### Modifying the System
+
+Adding a New Event Field
+
+```
+
+npx prisma migrate dev --name add_<field_name>
+npx prisma generate
+
+```
+
 ### (Optional) Testing 
 
 Run Playwright tests using the following command:
 
 ```
-npm run playwright-development
-```
-
-Run Jest using the following command:
+npx playwright-test --headed
 
 ```
-npm test
+
+Linting
+
+```
+npm run lint
+ 
 ```
 
+### Styling
+
+```
+
+:root {
+  --primary-bg: #ECECEC;        /* Light background for main pages */
+  --footer-bg: #0B3D2E;         /* Dark green footer background */
+  --footer-text: #FFFFFF;       /* White footer text */
+  --footer-link: #CDE7D8;       /* Light mint green footer links */
+}
+
+```
+
+### Authentication & Authorization
+
+Managed via NextAuth.js.
+
+Admins & Organizers have elevated access.
+
+### Deployment
+
+```
+npm run build
+npm start
+
+```
 ---
 
 ## Community Feedback
 
-TBD
+The section below presents feedback from five members of the UH community who evaluated the functionalities and capabilities of the WarriorHub application. This feedback is categorized into their overall impression, aspects they liked, areas they disliked, and suggestions for improvement.
 
+### UH Community Member 1 (Admin Role)
+
+**General Impressions:**
+
+Lots of great information all on one website. Colorful, detailed event information, easy to view and edit.
+
+**What they Liked:**
+
+I liked the ease of use and editing of the events. Format is easy to follow. I also like the search capabilities and that you can see and find the event in different formats (i.e., search, calendar, etc).
+
+**What they Disliked:**
+
+Wish some of the pictures were more centered for the event but might not be something the group can control.
+
+**What can be Improved:**
+
+Maybe if information if the event was a lecture, interactive or participation required might be useful to make that a category for those attending the events.
+
+### UH Community Member 2 (Organizer Role)
+
+**General Impressions:**
+
+Very appealing to the eye, easy to know what this application does.
+
+**What they Liked:**
+
+Easy to navigate, able to contact the team members if help is needed, calendar is nice to see everything all at once.
+
+**What they Disliked**
+
+As an organizer there are no explicit instructions on how to make an event (unless that is specified to them when contacted). As a student, you are locked into the events listed here only, no outside resources to be able to see more events (if there is more).
+
+**What can be Improved:**
+
+Maybe add a way for students to favorite events so they know exactly what they'd want to do, so give them access to make an account but no permissions.
+
+### UH Community Member 3 (User Role)
+
+**What they Liked:**
+
+I like how clearly the website explains what it is and the purpose it serves. The mission is easy to understand without having to search around for extra information. I also really like the option to heart the events I am interested in attending, because it adds accessibility and convenience. Another feature I enjoy is the calendar, which makes it simple to keep track of upcoming events and plan ahead.
+
+**What they Disliked:**
+
+One thing I noticed is that a few buttons and features were not immediately clear, so I had to click around before understanding their purpose. The homepage could also benefit from a bit more color or imagery, as it sometimes feels a little plain.
+
+**What can be Improved:**
+
+I think the website could be improved by adding more visuals, such as photos or icons, to make the layout more engaging. Creating a short introductory video or tutorial could also help new visitors understand how to use the site more quickly. The navigation menu might benefit from some small adjustments to make moving between sections smoother. Adding more imagery or design elements on the homepage could also help make the site feel more lively and inviting.
+
+### UH Community Member 4 (User Role)
+
+**Impressions:**
+
+It honestly looks pretty solid and professional. It definitely captures the UH Manoa vibe with the colors and the logo, and it doesn't feel like a broken school project. It looks like something I'd actually use to find stuff to do on campus.
+
+**What they Liked:**
+
+The "My Events" page is super clean. I really like that it separates "Upcoming" and "Past" events automatically so I don't have to scroll through old stuff.
+
+The little tags on the event cards (like Free, Academic, Social) are a huge help for quickly seeing if an event is worth my time without clicking into it.
+
+The mobile view looks good and not squished, which is key since I'm mostly on my phone anyway.
+
+The table layout for interested events gives me exactly what I need (Date, Time, Location) without being messy.
+
+**What they Disliked:**
+
+When attempting to log in, you have to press the "Signin" button multiple times before it actually leads you somewhere or logs you in.
+
+On the "My Interested Events" list, the "Remove Interest" button is a little clunky with the heart icon and the text right next to the "View" link; it feels a little crowded there.
+
+The buttons on the cards are inconsistent lengths; "Mark as Interested" is way longer than the solid "Interested" button, which makes the cards look a little uneven.
+
+The text ("Welcome to WarriorHub") covers up a lot of the cool campus background photo on the desktop view.
+
+**What can be Improved:**
+
+Swap the "Remove Interest" text for just a simple trash can icon or an "X" to make that table row look cleaner.
+
+Make the "Visit Page" and "Interested" buttons on the cards the same fixed width so everything lines up perfectly regardless of the text length.
+
+Maybe add a quick "Filter by Date" or a simple calendar picker on the My Events page so I don't have to just scroll if I have a ton of saved events.
+
+### UH Community Member 5 (User Role)
+
+**General Impressions:**
+
+Comes off as very functional as an MVP, and has the potential to be fleshed out to become a valuable service.
+
+**What they Liked:**
+
+I noticed some smaller things that showcased there was care and thoughtfulness taken into some implementations. For example, a browse events button when you have not yet marked events as interested.
+
+**What they Disliked:**
+
+When I signed up, I had without any sort of prompts been sent to the login page to login manually. Formatting and whitespace.
+
+**What can be Improved:**
+
+Less white space, more personality, and care in formatting. Although, this works very well as an MVP. Notification prompt upon successfully signing up. Auto logged in after signing up. Filtering using multiple categories, since multiple can be marked for an event. See my upcoming events on home page. For the Event Page to have similar events at the bottom and see how many people are interested in the event.
 ---
 
 ## Example Enhancements

@@ -430,38 +430,94 @@ Then access the app locally by putting [http://localhost:3000](http://localhost:
 
 ```
 
-├─ prisma/          # Prisma schema, migrations, seed scripts
-├─ src/
-│  ├─ app/
-│  │  ├─ admin/        # Admin pages
-│  │  ├─ organizer/    # Organizer pages
-│  │  ├─ auth/         # Sign in, sign up, authentication
-│  │  ├─ calendar/     # Interactive event calendar
-│  │  ├─ event/        # Event detail & CRUD pages
-│  │  ├─ profile/      # User profile pages
-│  │  ├─ map/          # Campus map
-│  │  ├─ layout.tsx    # Global layout
-│  │  └─ page.tsx      # Landing page
-│  ├─ components/      # React components (Forms, Navbar, Footer, etc.)
-│  └─ lib/             # Utilities (Prisma client, DB actions, auth checks)
-├─ public/           # Images, icons, static assets
-├─ config/           # Config files (example: event categories)
-├─ tests/            # Playwright test files
-├─ .eslintrc.json    # ESLint configuration
-└─ package.json      # NPM scripts
+.github/               # GitHub issue templates and CI/CD workflows
+checklists/            # Feature and task checklists
+config/                # Static config files (e.g., event categories)
+doc/                   # Documentation assets
+prisma/                # Prisma schema, migrations, seed scripts
+public/                # Static assets (images, icons)
+src/
+├── app/               # Next.js route handlers and pages
+│   ├── admin/             # Admin dashboard and event management
+│   ├── api/               # API routes (auth, categories, events, user)
+│   ├── auth/              # Sign in, sign up, password management
+│   ├── calendar/          # Calendar view by year/month
+│   ├── contact/           # Contact page
+│   ├── events/            # Event detail and edit pages
+│   ├── myevents/          # Organizer’s event list and add page
+│   ├── organizer/         # Organizer dashboard
+│   ├── search/            # Event search and filters
+│   ├── userhome/          # Logged-in user homepage
+│   ├── not-authorized/    # Role-based access fallback
+│   └── page.tsx           # Landing page
+├── components/        # Reusable UI components (forms, buttons, cards)
+├── lib/               # Auth options, DB actions, validation schemas
+├── types/             # TypeScript declarations
+├── tests/             # Playwright test files and sessions
+.env.local             # Local environment variables
+README.md              # Project documentation
+package.json           # NPM scripts and dependencies
 
 ```
 
 ### Modifying the System
 
-Adding a New Event Field
+### Adding a New Event Field
+
+To add a new field to the Event model:
+
+Open prisma/schema.prisma and add your new field under the Event model.
+
+Run the migration:
 
 ```
-
 npx prisma migrate dev --name add_<field_name>
 npx prisma generate
 
 ```
+### Adding a New Page or Component
+
+Create a new folder or file under src/app/ or src/components/ depending on your use case.
+
+Use existing pages as templates for layout and routing.
+
+Ensure your new page is registered in the navigation if needed.
+
+### Editing Existing Components or API Routes
+
+Components (src/components/)
+
+Locate the component you want to update (e.g., Navbar.tsx, EventCard.tsx).
+
+Make changes directly in the .tsx file, following the existing props and state patterns.
+
+If adding new props, update TypeScript types in lib/validationSchemas.ts or types/ as
+
+needed. 
+
+### API Routes (src/app/api/)
+
+Find the relevant route folder (e.g., events/, categories/, auth/).
+
+Edit the route.ts file to adjust logic, queries, or validation.
+
+Use helper functions from lib/dbActions.ts or lib/authOptions.ts to keep code consistent.
+
+After changes, run:
+
+```
+npx prisma generate 
+npm run dev
+
+```
+to refresh the client and test updates.
+
+Updating Configurations
+
+Modify files in src/config/ for event categories or other static settings.
+
+Restart the server to apply changes.
+
 
 ### (Optional) Testing 
 

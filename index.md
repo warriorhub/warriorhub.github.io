@@ -309,7 +309,7 @@ When signed in as an organizer, clicking the “Edit” button on the My Events 
   <img src="images/web/organizerediteventpage.png" alt="Organizer Edit Event Page" width="100%">
 </p>
 
-### Manage Events Page
+### List Events Page
 The “Manage Events” page displays a table of all events with columns for title, organization, date & time, location, categories, and actions. Admins and organizers can edit or delete events directly from this interface. Categories are shown as tags, and each row includes buttons for quick management.  
 
 <p align="center">

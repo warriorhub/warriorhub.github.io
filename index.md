@@ -308,29 +308,6 @@ When signed in as an organizer, clicking the “Edit” button on the My Events 
 <p align="center">
   <img src="images/web/organizerediteventpage.png" alt="Organizer Edit Event Page" width="100%">
 </p>
-
-### Manage Events Page
-The “Manage Events” page displays a table of all events with columns for title, organization, date & time, location, categories, and actions. Admins and organizers can edit or delete events directly from this interface. Categories are shown as tags, and each row includes buttons for quick management.  
-
-<p align="center">
-  <img src="images/web/adminmanagepage.png" alt="Admin Manage Events Page" width="100%">
-</p>
-
-### Admin Homepage (Account List Page)
-
-When signed in as an admin, the homepage is the Account List page. This page displays two tables: one for Admins and one for Organizers. Each entry includes the name, email, role, and an “Edit” action. Admins use this page to manage permissions, verify organizer accounts, and oversee the system’s user roles. By serving as the admin homepage, it provides a centralized interface for account management and ensures that event organizers are properly supervised.  
-
-<p align="center">
-  <img src="images/web/adminhomepage.png" alt="Admin Home Page" width="100%">
-</p>
-
-### Change Password Page
-
-If a user needs to update their account credentials, they can access the Change Password page. This page includes input fields for the old password, new password, and confirmation of the new password. Users can click the “Change” button to submit the update or use the “Reset” button to clear the form. This feature helps users maintain account security and manage their login information.  
-
-<p align="center">
-  <img src="images/web/changepasswordpage.png" alt="Change Password Page" width="100%">
-</p>
 ---
 
 ## Developer Guide

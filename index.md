@@ -14,25 +14,21 @@
 * [Community Feedback](#community-feedback)
 * [Example Enhancements](#example-enhancements)
 
+---
+
 ## Overview
 
+WarriorHub is a centralized event discovery platform designed specifically for students at the University of Hawai‘i at Mānoa. The platform provides a single location to explore on-campus activities, eliminating the need to navigate multiple calendars or department websites. Users can view upcoming opportunities, learn about organizations, and stay connected with student life throughout the semester.
 
-WarriorHub is a centralized event discovery platform designed specifically for students at the University of Hawai‘i at Mānoa. The platform provides a single location to explore on-campus activities, eliminating the need to navigate multiple calendars or department websites. Students can view upcoming opportunities, learn about organizations, and stay connected with student life throughout the semester.
+The web application will allow three types of roles: users, organizers, and admins. 
 
-Using WarriorHub, students can browse and filter events based on category, location, or personal preference. The web application will allow three types of users: students, organizers, and admins. 
-
-* Students can browse events and set preferences
+* Students can browse and archive events
 * Organizers can create and manage events
-* Admins will validate new events, manage event quality, and organizer accounts
-
----
+* Admins will validate new events, manage event quality and accounts
 
 ### The Problem
 
-
 UH Mānoa has multiple independent event calendars, leading to missed opportunities and overlooked events due to the absence of filtering options. This makes finding relevant events difficult, reducing participation and visibility.
-
----
 
 ### The Solution
 
@@ -43,7 +39,6 @@ We will implement a mass event scheduler. This will allow various organizations 
 ## Team
 
 WarriorHub is designed, implemented, and maintained by:
-
 * Sakura Takahashi (<sakuraet@hawaii.edu>)
   * Sakura is a senior studying Mathematics, she is the Project Manager for WarriorHub.
 * Jiayi Liu (<liujiayi@hawaii.edu>)
@@ -54,20 +49,14 @@ WarriorHub is designed, implemented, and maintained by:
   * Jordan is a fourth-year studying Computer Science, he is the Systems Integrator for WarriorHub.
 * Alicia Luck (<luckmana@hawaii.edu>)
   * Alicia is a fourth-year studying Information Technology.
- 
----
 
 ### Team Contract
 
 Our team's Code of Conduct can be found in the [Team Contract](https://docs.google.com/document/d/1tgecXyrKeLgYMAdy3Xhf0NZaTgcaG1QSbqhRyxEmIIQ/edit?usp=sharing)
 
----
-
 ### Team Risk Management 
 
 Our team's Risk Management Stategy can be found in [Risk Management](https://docs.google.com/document/d/1Jp-302tX5pGwH0ku5nrUV3UAuLDDxby6hVX-mHsiW0s/edit?usp=sharing)
-
----
 
 ### ER Diagrams 
 
@@ -142,7 +131,7 @@ The landing page is presented to everyone who visits the top-level URL of the we
 If a new user is accessing the website, they can register by clicking the “Login” button in the upper right corner, selecting “Sign Up,” entering their UH email address, and creating a password.  
 
 <p align="center">
-  <img src="images/web/signuppage.png" alt="Sign Up Page" width="100%">
+  <img src="images/web/signup_page.png" alt="Sign Up Page" width="100%">
 </p>
 
 If an existing user is accessing the website, they can sign in by clicking the “Login” button, selecting “Sign In,” and entering their email and password.  
@@ -151,10 +140,10 @@ If an existing user is accessing the website, they can sign in by clicking the �
   <img src="images/web/signin_page.png" alt="Sign In Page" width="100%">
 </p> 
 
-If a user needs to update their account credentials, they can access the Change Password page. This page includes input fields for the old password, new password, and confirmation of the new password.
+If an existing user needs to update their account credentials, they can access the "Change Password" page. This page includes input fields for the old password, new password, and confirmation of the new password.
 
 <p align="center">
-  <img src="images/web/signup_page.png" alt="Sign Up Page" width="100%">
+  <img src="images/web/changepasswordpage.png" alt="Change Password Page" width="100%">
 </p>
 
 ---
@@ -176,17 +165,17 @@ Users can contact us through this page. Each of our names redirects to opening a
 The “Search Events” page allows users to explore all upcoming events. Users can filter events by name, location, organization, and date. Category tags can be clicked on to filter through events. Each event includes a thumbnail, tags, and a “Visit Page” button which links to the "Event Details" page.  
 
 <p align="center">
-  <img src="images/web/search_events1.png" alt="Search Events Page" width="100%">
+  <img src="images/web/search_events_page1.png" alt="Search Events Page" width="100%">
 </p> 
 <p align="center">
-  <img src="images/web/search_events2.png" alt="Search Events Page" width="100%">
+  <img src="images/web/search_events_page2.png" alt="Search Events Page" width="100%">
 </p> 
 
 ---
 
 ### Event Details Page Mockup 
 
-Anyone visting the site can click on the "View Page" button on event cards to be presented a detailed event details pop-up that provides additional information for the event like description, time, date, location, organizer, etc. The "Interested" button only appears on the Event Details page if the signed-in account has the role type of user.
+Anyone visting the site can click on the "View Page" button on event cards to be redirected to the "Events Detail" page that provides additional information for the event like description, time, date, location, organizer, etc. The "Interested" button only appears on the "Event Details" page if the signed-in account has the role type of a user.
 
 <p align="center">
   <img src="images/web/event_details.png" alt="Event Details Page" width="100%">
@@ -196,7 +185,7 @@ Anyone visting the site can click on the "View Page" button on event cards to be
 
 ### Calendar Page
 
-The “Calendar” page displays all upcoming events in a monthly, weekly, or daily view. Users can navigate using “Back,” “Today,” and “Next” buttons. Events are clickable thus allowing users to preview event details directly from the calendar.  
+The “Calendar” page displays all upcoming events in a monthly, weekly, or daily view. Users can navigate using “Back”, “Today”, and “Next” buttons. Events are clickable thus allowing users to preview event details directly from the calendar.  
 
 <p align="center">
   <img src="images/web/calendar_page.png" alt="Calendar Page" width="100%">
@@ -206,7 +195,7 @@ The “Calendar” page displays all upcoming events in a monthly, weekly, or da
 
 ### Home Page (User)
 
-Once signed in, users are directed to their homepage. This page displays upcoming events and buttons to mark interest or view more details. Users can access this page again by either clicking "Home" or "WarriorHub" in their navagation bar. 
+Once signed in, users are directed to their homepage. This page displays upcoming featured events and buttons to mark interest or view more details on the event cards. Users can access this page again by either clicking "Home" or "WarriorHub" in their navagation bar. 
 
 <p align="center">
   <img src="images/web/home_user.png" alt="User Home Page" width="100%">
@@ -224,7 +213,7 @@ When signed in as a user, the "My Event"s page displays all the events that the 
 
 #### My Events Page Past View (User)
 
-Users can access their past interested events by clicking "Past".
+Users can access their past interested events by clicking "Past Events".
 
 <p align="center">
   <img src="images/web/myevents_past_user.png" alt="User My Events Past View" width="100%">
@@ -233,7 +222,7 @@ Users can access their past interested events by clicking "Past".
 
 #### My Events Card View (User)
 
-Users can access their events in a card format as well as the table view shown previously by clicking "Display Option".
+Users can access their events in a card format as well as the table view shown previously by clicking "Display Option" which renders a dropdown for "Card View" or "Table View".
 
 <p align="center">
   <img src="images/web/myevents_card_user.png" alt="User My Events Card View" width="100%">
@@ -253,7 +242,7 @@ When signed in as an organizer, the homepage displays a welcome message and acce
 
 ### My Events Page (Organizer)
 
-When signed in as an organizer, the My Events page displays a list of all events created by the organizer. Each event entry includes the title, organizer name, venue, category tags, start and end date & time, and options to view, edit, or delete the event. The page also includes a search bar to help organizers quickly locate specific events by title, and an “Add New” button to create additional events.
+When signed in as an organizer, the "My Events" page displays a list of all events created by the organizer. Each event entry includes the title, organizer name, venue, category tags, start and end date & time, and options to view, edit, or delete the event. The page also includes a search bar to help organizers quickly locate specific events by title, and an “Add New” button to create additional events.
 
 <p align="center">
   <img src="images/web/myevents_organizer.png" alt="Organizer My Events Page" width="100%">
@@ -261,7 +250,7 @@ When signed in as an organizer, the My Events page displays a list of all events
 
 #### My Events Page Past View (Organizer)
 
-Organizers can access their past events by clicking "Past".
+Organizers can access their past events by clicking "Past Events".
 
 <p align="center">
   <img src="images/web/myevents_past_organizer.png" alt="Organizer My Events Past View" width="100%">
@@ -270,7 +259,7 @@ Organizers can access their past events by clicking "Past".
 
 #### My Events Card View (Organizer)
 
-Organizers can access their events in a card format as well as the table view shown previously by clicking "Display Option".
+Organizers can access their events in a card format as well as the table view shown previously by clicking "Display Option" which renders a dropdown for "Card View" or "Table View".
 
 <p align="center">
   <img src="images/web/myevents_card_organizer.png" alt="Organizer My Events Card View" width="100%">
@@ -280,7 +269,7 @@ Organizers can access their events in a card format as well as the table view sh
 
 ### Add Event Page (Organizer View)
 
-When signed in as an organizer, clicking the “Add New” button on the My Events page redirects to the "Add Event" page. Organizers can enter all relevant details for a new event, including the event name, date, time, location, description, image URL, and category tags. Once completed, organizers can click the “Create Event” button to publish the event.
+When signed in as an organizer, clicking the “Add New” button on the "My Events" page redirects to the "Add Event" page. Organizers can enter all relevant details for a new event, including the event name, date, time, location, description, image URL, and category tags. Once completed, organizers can click the “Create Event” button to publish the event.
 
 <p align="center">
   <img src="images/web/add_event_organizer.png" alt="Organizer Add Page" width="100%">
@@ -290,7 +279,7 @@ When signed in as an organizer, clicking the “Add New” button on the My Even
 
 ### Edit Event Page (Organizer View)
 
-When signed in as an organizer, clicking the “Edit” button on the My Events page opens the Edit Event form. Organizers can update event details including the name, description, location, date and time, image URL, and category tags. The form allows organizers to revise any part of the event listing and save changes instantly.
+When signed in as an organizer, clicking the “Edit” button on the "My Events" page redirects to the "Edit Event" page. Organizers can update event details including the name, description, location, date and time, image URL, and category tags. The form allows organizers to revise any part of the event listing and save changes instantly.
 
 <p align="center">
   <img src="images/web/edit_event_organizer.png" alt="Organizer Edit Page" width="100%">
@@ -332,7 +321,7 @@ The "List Events" page displays a table of all events with columns for title, or
 
 #### Delete / Edit Event Page (Admin)
 
-Admins can manage (delete/edit) any/all events in their "List Events" page to ensure quality control. This is where Admins can delete and edit any/all events in the database after clicking the "Edit" button in their "List Event" page.
+Admins can manage (delete/edit) any/all events in their "List Events" page to ensure quality control. This is where Admins can delete and edit any/all events in the database after clicking the "Edit" button in their "List Events" page.
 
 <p align="center">
   <img src="images/web/edit_event_admin.png" alt="Admin Edit Page" width="100%">

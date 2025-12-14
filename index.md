@@ -86,6 +86,10 @@ Here are our goals throughout this project, separated into Milestones. They can 
 
 [Project Milestone 3](https://github.com/orgs/warriorhub/projects/5)
 
+### Effort Estimation Spreadsheet 
+
+Our team's Effort Estimation Google Spreadsheet can be found in [WarriorHub Effort Estimation](https://docs.google.com/spreadsheets/d/1Tl9o4xFjIVCQJR4_xxAe4uxyy4snGOeN7FuaIdNy51c/edit?usp=sharing)
+
 ---
 
 ## Deployment

@@ -617,7 +617,7 @@ resources to be able to see more events (if there is more).
 
 **What can be Improved:**
 
-Maybe add a way for students to favorite events so they know exactly what they'd want to do, 
+Maybe add a way for students to favorite events so they know exactly what they'd want to do,
 so give them access to make an account but no permissions.
 
 ### UH Community Member 3 (User Role)
@@ -715,7 +715,7 @@ For the Event Page to have similar events at the bottom and see how many people 
 
 Additional planned features include:
 
-* Notify students via email and SMS reminders of upcoming events, and notify them of similar events that are 
+* Notify students via email and SMS reminders of upcoming events, and notify them of similar events that are
     coming up that they might be interested in.
 * Map viewing showing the location of nearby events.  
 * System for reviews on events, allowing students to give anonymous feedback of the event after they have attended.

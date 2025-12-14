@@ -473,7 +473,7 @@ Seed the database with default users and events (optional):
 npx prisma db seed
 ```
 
-**You may skip this step if your ```.env``` points to a hosted database.**
+**You may skip this step if your `.env` points to a hosted database.**
 
 ### Running The Development Server
 
@@ -551,13 +551,13 @@ Developers and contributors should ensure that all CI checks pass before merging
 
 #### Continuous Integration
 
-All commits to ```main``` automatically trigger:
+All commits to `main` automatically trigger:
 
 * ESLint checks
 * Playwright test suite
 * Build verification
 
-This is done through GitHub Actions (see ```.github/workflows/ci.yml```).
+This is done through GitHub Actions (see `.github/workflows/ci.yml`).
 
 #### Contribution Workflow
 
@@ -565,7 +565,7 @@ Typical development flow:
 
 * Create a feature branch
 * Implement changes
-* Run ```npm run lint``` and npx ```playwright test```
+* Run `npm run lint` and `npx playwright test`
 * Commit and push your branch
 * Open a pull request
 * Ensure CI passes
